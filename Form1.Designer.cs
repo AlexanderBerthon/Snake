@@ -925,7 +925,7 @@
             // 
             // button30
             // 
-            this.button30.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button30.BackColor = System.Drawing.Color.LightBlue;
             this.button30.FlatAppearance.BorderSize = 0;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Location = new System.Drawing.Point(260, 20);

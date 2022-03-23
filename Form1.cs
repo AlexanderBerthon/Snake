@@ -15,8 +15,9 @@ namespace Snake {
         private void TimerEventProcessor(Object anObject, EventArgs eventArgs) {
             //reset event clock
             timer.Stop();
-            move();
-            timer.Start();
+            if (move()) {
+                timer.Start();
+            }
         }
 
         public Form1() {
@@ -38,7 +39,8 @@ namespace Snake {
             spawn();
         }
 
-        private void move() {
+        private Boolean move() {
+            Boolean runGame = true;
             snake.Add(currentIndex);
             lastIndex = snake[0];
             btnArray[lastIndex].BackColor = Color.LightBlue; //remove last
@@ -48,10 +50,15 @@ namespace Snake {
                 snake.Add(currentIndex);
                 spawn();
             }
+            else if (btnArray[currentIndex].BackColor == Color.Black) {
+                runGame = false;
+            }
 
             btnArray[currentIndex].BackColor = Color.Black; 
                 
             snake.RemoveAt(0);
+
+            return runGame;
         }
 
         private void spawn() {

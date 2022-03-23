@@ -5,12 +5,12 @@
   </section>
   <section>
     <ul>To Do for MVP:
-      <ul>Create UI</ul>
+      <ul><s>Create UI</s></ul>
       <ul>Implement front end functionality(button grid / layout / etc.)</ul>
       <ul>Gameplay
-        <ul>Movement</ul>
-        <ul>Growth</ul>
-        <ul>Orb Spawns</ul>
+        <ul><s>Movement</s></ul>
+        <ul><s>Growth</s></ul>
+        <ul><s>Orb Spawns</s></ul>
         <ul>Collision</ul>
         <ul>Game Over</ul>
         <ul>Score</ul>

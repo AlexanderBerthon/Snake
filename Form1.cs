@@ -4,7 +4,8 @@ namespace Snake {
         int currentIndex;
         int lastIndex;
         int trajectory;
-        int snake;
+        //int snake;
+        List<int> snake;
         Random random = new Random();
         Button[] btnArray;
 
@@ -21,11 +22,13 @@ namespace Snake {
         public Form1() {
             InitializeComponent();
 
-            timer.Interval = 300;
+            timer.Interval = 100;
             timer.Start();
             timer.Tick += new EventHandler(TimerEventProcessor);
 
-            snake = 1;
+            snake = new List<int>();
+
+            //snake = 1;
             currentIndex = 18;
             lastIndex = 200;
             trajectory = +16;
@@ -36,57 +39,19 @@ namespace Snake {
         }
 
         private void move() {
-            //paint beginning
-            //paint end
-            //nothing else should change?
+            snake.Add(currentIndex);
+            lastIndex = snake[0];
+            btnArray[lastIndex].BackColor = Color.LightBlue; //remove last
+            currentIndex += trajectory;
 
-            
-
-            if (snake == 1) {
-                btnArray[currentIndex].BackColor = Color.LightBlue;
-                currentIndex += trajectory;
-
-                if (btnArray[currentIndex].BackColor == Color.Firebrick) {
-                    snake++;
-                    spawn();
-                }
-
-                btnArray[currentIndex].BackColor = Color.Black;
+            if (btnArray[currentIndex].BackColor == Color.Firebrick) {
+                snake.Add(currentIndex);
+                spawn();
             }
-            else {
-                if (snake == 2) {
-                    lastIndex = currentIndex;
-                }
-                else {
 
-                    btnArray[lastIndex].BackColor = Color.LightBlue;
-                    //this can't be a good way to solve this problem..
-                    if (btnArray[lastIndex - 1].BackColor == Color.Black) {
-                        lastIndex = (lastIndex - 1)*snake;
-                    }
-                    else if (btnArray[lastIndex + 1].BackColor == Color.Black) {
-                        lastIndex = (lastIndex + 1)*snake;
-                    }
-                    else if (btnArray[lastIndex - 16].BackColor == Color.Black) {
-                        lastIndex = (lastIndex - 16)*snake;
-                    }
-                    else if (btnArray[lastIndex + 16].BackColor == Color.Black) {
-                        lastIndex = (lastIndex + 16)*snake;
-                    }
-                }
-
-                currentIndex += trajectory;
-
-                if (btnArray[currentIndex].BackColor == Color.Firebrick) {
-                    snake++;
-                    spawn();
-                }
-
-                btnArray[currentIndex].BackColor = Color.Black;
-
+            btnArray[currentIndex].BackColor = Color.Black; 
                 
-            }
-            
+            snake.RemoveAt(0);
         }
 
         private void spawn() {

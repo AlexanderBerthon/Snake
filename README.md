@@ -11,7 +11,7 @@
         <ul><s>Movement</s></ul>
         <ul><s>Growth</s></ul>
         <ul><s>Orb Spawns</s></ul>
-        <ul>Collision</ul>
+        <ul><s>Collision</s></ul>
         <ul>Game Over</ul>
         <ul>Score</ul>
         <ul>Speed / Difficulty</ul>

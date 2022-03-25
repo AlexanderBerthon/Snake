@@ -4,19 +4,20 @@ namespace Snake {
         int currentIndex;
         int lastIndex;
         int trajectory;
-        //int snake;
         List<int> snake;
         Random random = new Random();
         Button[] btnArray;
 
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
 
-
         private void TimerEventProcessor(Object anObject, EventArgs eventArgs) {
             //reset event clock
             timer.Stop();
             if (move()) {
                 timer.Start();
+            }
+            else {
+                label1.Text = "GAME OVER";
             }
         }
 
@@ -29,7 +30,6 @@ namespace Snake {
 
             snake = new List<int>();
 
-            //snake = 1;
             currentIndex = 18;
             lastIndex = 200;
             trajectory = +16;
@@ -48,6 +48,7 @@ namespace Snake {
 
             if (btnArray[currentIndex].BackColor == Color.Firebrick) {
                 snake.Add(currentIndex);
+                label1.Text = snake.Count.ToString();
                 spawn();
             }
             else if (btnArray[currentIndex].BackColor == Color.Black) {

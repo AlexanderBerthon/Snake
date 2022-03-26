@@ -12,8 +12,9 @@
         <ul><s>Growth</s></ul>
         <ul><s>Orb Spawns</s></ul>
         <ul><s>Collision</s></ul>
-        <ul>Game Over</ul>
-        <ul>Score</ul>
+        <ul><s>Game Over</s></ul>
+        <ul><s>Score</s></ul>
+        <ul>Border Collision</ul>
         <ul>Speed / Difficulty</ul>
         <ul>Testing</ul>
   </section>

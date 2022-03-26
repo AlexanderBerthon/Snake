@@ -1,4 +1,15 @@
 namespace Snake {
+
+
+    /* BUGS
+     * orb spawns on top of the snake, gets deleted
+     * going off screen to the left portals you to the right side
+     * going off screen to the right portals you to the left side
+     * going off screen up or down crashes the game (catch this exception and end the game instead)
+     * 
+     */
+
+
     public partial class Form1 : Form {
         //global variables :(
         int currentIndex;
@@ -17,7 +28,7 @@ namespace Snake {
                 timer.Start();
             }
             else {
-                label1.Text = "GAME OVER";
+                label2.Visible = true;
             }
         }
 
@@ -43,7 +54,7 @@ namespace Snake {
             Boolean runGame = true;
             snake.Add(currentIndex);
             lastIndex = snake[0];
-            btnArray[lastIndex].BackColor = Color.LightBlue; //remove last
+            btnArray[lastIndex].BackColor = Color.PeachPuff; //remove last
             currentIndex += trajectory;
 
             if (btnArray[currentIndex].BackColor == Color.Firebrick) {
@@ -81,6 +92,5 @@ namespace Snake {
                 trajectory = 1;
             }
         }
-
     }
 }

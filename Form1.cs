@@ -3,10 +3,6 @@ namespace Snake {
 
     /* BUGS
      * orb spawns on top of the snake, gets deleted
-     * going off screen to the left portals you to the right side
-     * going off screen to the right portals you to the left side
-     * going off screen up or down crashes the game (catch this exception and end the game instead)
-     * 
      */
 
 
@@ -55,6 +51,29 @@ namespace Snake {
             snake.Add(currentIndex);
             lastIndex = snake[0];
             btnArray[lastIndex].BackColor = Color.PeachPuff; //remove last
+            // start here
+            //check left border
+            if (currentIndex % 16 == 0 && trajectory == -1) {
+                //Border Collision: game over
+                runGame = false;
+            }
+            //check right border
+            else if (currentIndex % 16 == 15 && trajectory == +1) {
+                //Border Collision: game over
+                runGame = false;
+            }
+            //check bottom border
+            else if (currentIndex >= 239 && trajectory == +16) {
+                //Border Collision: game over
+                runGame = false;
+            }
+            //check top border
+            else if (currentIndex <= 15 && trajectory == -16) {
+                //Border Collision: game over
+                runGame = false;
+            }
+            else {
+
             currentIndex += trajectory;
 
             if (btnArray[currentIndex].BackColor == Color.Firebrick) {
@@ -66,9 +85,10 @@ namespace Snake {
                 runGame = false;
             }
 
-            btnArray[currentIndex].BackColor = Color.Black; 
-                
+            btnArray[currentIndex].BackColor = Color.Black;
+
             snake.RemoveAt(0);
+            }
 
             return runGame;
         }

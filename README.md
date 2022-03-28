@@ -4,10 +4,10 @@
     <h2>Attempting to recreate the game "Snake" using WinForms</h2>
   </section>
   <section>
-    <ul>To Do for MVP:
+    <ul><s>To Do for MVP:</s>
       <ul><s>Create UI</s></ul>
       <ul><s>Implement front end functionality(button grid / layout / etc.)</s></ul>
-      <ul>Gameplay
+      <ul><s>Gameplay</s>
         <ul><s>Movement</s></ul>
         <ul><s>Growth</s></ul>
         <ul><s>Orb Spawns</s></ul>

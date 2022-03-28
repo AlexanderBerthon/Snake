@@ -1,11 +1,5 @@
 namespace Snake {
 
-
-    /* BUGS
-     * orb spawns on top of the snake, gets deleted
-     */
-
-
     public partial class Form1 : Form {
         //global variables :(
         int currentIndex;
@@ -46,6 +40,11 @@ namespace Snake {
             spawn();
         }
 
+        /// <summary>
+        /// This function moves the player snake based on user input gathered by the movement_keypressed action listener
+        /// Also checks for collisions with the border / snake and ends the game on collision 
+        /// </summary>
+        /// <returns></returns>
         private Boolean move() {
             Boolean runGame = true;
             snake.Add(currentIndex);
@@ -93,11 +92,37 @@ namespace Snake {
             return runGame;
         }
 
+        /// <summary>
+        /// This function spawns the orbs for the player to collect.
+        /// 
+        /// the function is called after the previous orb has been collected. 
+        /// 
+        /// the player recieves one point for each orb collected.
+        /// 
+        /// the location of the orb is random, however, if the orb would have spawned on top of the player
+        /// the location will be re-randomized until it does not. 
+        /// </summary>
         private void spawn() {
-            int location = random.Next(0, btnArray.Length);
+            int location = 0;
+            Boolean valid = false;
+            while (!valid) {
+                valid = true;
+                location = random.Next(0, btnArray.Length);
+                foreach (int i in snake) {
+                    if (location == i) {
+                        valid = false;
+                    }
+                }
+            }
             btnArray[location].BackColor = Color.Firebrick;
         }
 
+        /// <summary>
+        /// This function sets the direction of the snake at the given "game tick"
+        /// which is then fed into the move function to move the snake in the right direction.
+        /// </summary>
+        /// <param name="sender"></param> 
+        /// <param name="e"></param>
         private void movement_KeyPress(object sender, KeyPressEventArgs e) {
             if (e.KeyChar == 'w') {
                 trajectory = -16;

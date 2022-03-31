@@ -281,8 +281,14 @@
             this.button255 = new System.Windows.Forms.Button();
             this.button256 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.RestartButton = new System.Windows.Forms.Button();
+            this.ExitButton = new System.Windows.Forms.Button();
+            this.GameOverLabel = new System.Windows.Forms.Label();
+            this.ScoreLabel = new System.Windows.Forms.Label();
+            this.TryAgainLabel = new System.Windows.Forms.Label();
+            this.GameOverPanel = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
+            this.GameOverPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -3880,37 +3886,98 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(162, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "0";
             // 
-            // label2
+            // RestartButton
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(89, 160);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 37);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "GAME OVER";
-            this.label2.Visible = false;
+            this.RestartButton.BackColor = System.Drawing.Color.SeaGreen;
+            this.RestartButton.FlatAppearance.BorderSize = 0;
+            this.RestartButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RestartButton.Location = new System.Drawing.Point(10, 75);
+            this.RestartButton.Name = "RestartButton";
+            this.RestartButton.Size = new System.Drawing.Size(45, 22);
+            this.RestartButton.TabIndex = 0;
+            this.RestartButton.Text = "Yes";
+            this.RestartButton.UseVisualStyleBackColor = false;
+            this.RestartButton.Click += new System.EventHandler(this.RestartButton_Click);
+            // 
+            // ExitButton
+            // 
+            this.ExitButton.BackColor = System.Drawing.Color.Firebrick;
+            this.ExitButton.FlatAppearance.BorderSize = 0;
+            this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ExitButton.Location = new System.Drawing.Point(97, 74);
+            this.ExitButton.Name = "ExitButton";
+            this.ExitButton.Size = new System.Drawing.Size(45, 22);
+            this.ExitButton.TabIndex = 1;
+            this.ExitButton.Text = "No";
+            this.ExitButton.UseVisualStyleBackColor = false;
+            this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
+            // 
+            // GameOverLabel
+            // 
+            this.GameOverLabel.AutoSize = true;
+            this.GameOverLabel.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.GameOverLabel.Location = new System.Drawing.Point(22, 2);
+            this.GameOverLabel.Name = "GameOverLabel";
+            this.GameOverLabel.Size = new System.Drawing.Size(109, 31);
+            this.GameOverLabel.TabIndex = 2;
+            this.GameOverLabel.Text = "Game Over";
+            // 
+            // ScoreLabel
+            // 
+            this.ScoreLabel.AutoSize = true;
+            this.ScoreLabel.Font = new System.Drawing.Font("Blackadder ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ScoreLabel.Location = new System.Drawing.Point(39, 30);
+            this.ScoreLabel.Name = "ScoreLabel";
+            this.ScoreLabel.Size = new System.Drawing.Size(45, 22);
+            this.ScoreLabel.TabIndex = 3;
+            this.ScoreLabel.Text = "Score:";
+            // 
+            // TryAgainLabel
+            // 
+            this.TryAgainLabel.AutoSize = true;
+            this.TryAgainLabel.Font = new System.Drawing.Font("Bodoni MT Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TryAgainLabel.Location = new System.Drawing.Point(50, 56);
+            this.TryAgainLabel.Name = "TryAgainLabel";
+            this.TryAgainLabel.Size = new System.Drawing.Size(55, 18);
+            this.TryAgainLabel.TabIndex = 4;
+            this.TryAgainLabel.Text = "Try Again?";
+            // 
+            // GameOverPanel
+            // 
+            this.GameOverPanel.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.GameOverPanel.Controls.Add(this.ExitButton);
+            this.GameOverPanel.Controls.Add(this.RestartButton);
+            this.GameOverPanel.Controls.Add(this.GameOverLabel);
+            this.GameOverPanel.Controls.Add(this.ScoreLabel);
+            this.GameOverPanel.Controls.Add(this.TryAgainLabel);
+            this.GameOverPanel.Location = new System.Drawing.Point(95, 95);
+            this.GameOverPanel.Name = "GameOverPanel";
+            this.GameOverPanel.Size = new System.Drawing.Size(150, 100);
+            this.GameOverPanel.TabIndex = 3;
+            this.GameOverPanel.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SlateGray;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(344, 361);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.GameOverPanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.GameOverPanel.ResumeLayout(false);
+            this.GameOverPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4176,6 +4243,11 @@
         private Button button255;
         private Button button256;
         private Label label1;
-        private Label label2;
+        private Button RestartButton;
+        private Button ExitButton;
+        private Label ScoreLabel;
+        private Label TryAgainLabel;
+        private Label GameOverLabel;
+        private Panel GameOverPanel;
     }
 }

@@ -1,5 +1,10 @@
 namespace Snake {
 
+    /*
+    To-Do
+    - fix color / UI
+    */
+
     public partial class Form1 : Form {
         //global variables :(
         int currentIndex;
@@ -18,7 +23,8 @@ namespace Snake {
                 timer.Start();
             }
             else {
-                label2.Visible = true;
+                ScoreLabel.Text = "Score: " + snake.Count.ToString();
+                GameOverPanel.Visible = true;
             }
         }
 
@@ -136,6 +142,19 @@ namespace Snake {
             else if (e.KeyChar == 'd') {
                 trajectory = 1;
             }
+        }
+
+        //why is this here?
+        private void Form1_Load(object sender, EventArgs e) {
+          
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e) {
+            Application.Exit();
+        }
+
+        private void RestartButton_Click(object sender, EventArgs e) {
+            Application.Restart();
         }
     }
 }

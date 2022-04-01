@@ -3886,8 +3886,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(162, 4);
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(163, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 21);
             this.label1.TabIndex = 1;
@@ -3943,7 +3943,7 @@
             // 
             this.TryAgainLabel.AutoSize = true;
             this.TryAgainLabel.Font = new System.Drawing.Font("Bodoni MT Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TryAgainLabel.Location = new System.Drawing.Point(50, 56);
+            this.TryAgainLabel.Location = new System.Drawing.Point(50, 55);
             this.TryAgainLabel.Name = "TryAgainLabel";
             this.TryAgainLabel.Size = new System.Drawing.Size(55, 18);
             this.TryAgainLabel.TabIndex = 4;
@@ -3972,9 +3972,10 @@
             this.Controls.Add(this.GameOverPanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Snake";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.GameOverPanel.ResumeLayout(false);
             this.GameOverPanel.PerformLayout();

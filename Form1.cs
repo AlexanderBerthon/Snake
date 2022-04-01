@@ -143,7 +143,19 @@ namespace Snake {
         }
 
         private void RestartButton_Click(object sender, EventArgs e) {
-            Application.Restart();
+            GameOverPanel.Visible = false;
+            foreach (Button btn in btnArray) {
+                btn.BackColor = Color.PeachPuff;
+            }
+            trajectory = 16;
+            snake.Clear();
+            label1.Text = "0";
+            currentIndex = 18;
+            lastIndex = 200;
+            spawn();
+
+            timer.Start();
+
         }
     }
 }

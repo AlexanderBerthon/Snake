@@ -23,6 +23,7 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -280,11 +281,10 @@
             this.button254 = new System.Windows.Forms.Button();
             this.button255 = new System.Windows.Forms.Button();
             this.button256 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.ScoreLabel = new System.Windows.Forms.Label();
             this.RestartButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
             this.GameOverLabel = new System.Windows.Forms.Label();
-            this.ScoreLabel = new System.Windows.Forms.Label();
             this.TryAgainLabel = new System.Windows.Forms.Label();
             this.GameOverPanel = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
@@ -3882,16 +3882,16 @@
             this.button256.UseVisualStyleBackColor = false;
             this.button256.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.movement_KeyPress);
             // 
-            // label1
+            // ScoreLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(163, 4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "0";
+            this.ScoreLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ScoreLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.ScoreLabel.Location = new System.Drawing.Point(75, 4);
+            this.ScoreLabel.Name = "ScoreLabel";
+            this.ScoreLabel.Size = new System.Drawing.Size(200, 21);
+            this.ScoreLabel.TabIndex = 1;
+            this.ScoreLabel.Text = "0";
+            this.ScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // RestartButton
             // 
@@ -3922,30 +3922,20 @@
             // GameOverLabel
             // 
             this.GameOverLabel.AutoSize = true;
-            this.GameOverLabel.Font = new System.Drawing.Font("Blackadder ITC", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.GameOverLabel.Location = new System.Drawing.Point(22, 2);
+            this.GameOverLabel.Font = new System.Drawing.Font("Blackadder ITC", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.GameOverLabel.Location = new System.Drawing.Point(2, 2);
             this.GameOverLabel.Name = "GameOverLabel";
-            this.GameOverLabel.Size = new System.Drawing.Size(109, 31);
+            this.GameOverLabel.Size = new System.Drawing.Size(143, 38);
             this.GameOverLabel.TabIndex = 2;
-            this.GameOverLabel.Text = "Game Over";
-            // 
-            // ScoreLabel
-            // 
-            this.ScoreLabel.AutoSize = true;
-            this.ScoreLabel.Font = new System.Drawing.Font("Blackadder ITC", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ScoreLabel.Location = new System.Drawing.Point(39, 30);
-            this.ScoreLabel.Name = "ScoreLabel";
-            this.ScoreLabel.Size = new System.Drawing.Size(45, 22);
-            this.ScoreLabel.TabIndex = 3;
-            this.ScoreLabel.Text = "Score:";
+            this.GameOverLabel.Text = "Game Over!";
             // 
             // TryAgainLabel
             // 
             this.TryAgainLabel.AutoSize = true;
-            this.TryAgainLabel.Font = new System.Drawing.Font("Bodoni MT Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.TryAgainLabel.Location = new System.Drawing.Point(50, 55);
+            this.TryAgainLabel.Font = new System.Drawing.Font("Bodoni MT Condensed", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TryAgainLabel.Location = new System.Drawing.Point(45, 50);
             this.TryAgainLabel.Name = "TryAgainLabel";
-            this.TryAgainLabel.Size = new System.Drawing.Size(55, 18);
+            this.TryAgainLabel.Size = new System.Drawing.Size(69, 22);
             this.TryAgainLabel.TabIndex = 4;
             this.TryAgainLabel.Text = "Try Again?";
             // 
@@ -3955,7 +3945,6 @@
             this.GameOverPanel.Controls.Add(this.ExitButton);
             this.GameOverPanel.Controls.Add(this.RestartButton);
             this.GameOverPanel.Controls.Add(this.GameOverLabel);
-            this.GameOverPanel.Controls.Add(this.ScoreLabel);
             this.GameOverPanel.Controls.Add(this.TryAgainLabel);
             this.GameOverPanel.Location = new System.Drawing.Point(95, 95);
             this.GameOverPanel.Name = "GameOverPanel";
@@ -3970,8 +3959,9 @@
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(344, 361);
             this.Controls.Add(this.GameOverPanel);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ScoreLabel);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -3980,7 +3970,6 @@
             this.GameOverPanel.ResumeLayout(false);
             this.GameOverPanel.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -4243,10 +4232,9 @@
         private Button button254;
         private Button button255;
         private Button button256;
-        private Label label1;
+        private Label ScoreLabel;
         private Button RestartButton;
         private Button ExitButton;
-        private Label ScoreLabel;
         private Label TryAgainLabel;
         private Label GameOverLabel;
         private Panel GameOverPanel;

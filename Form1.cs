@@ -17,7 +17,7 @@ namespace Snake {
                 timer.Start();
             }
             else {
-                ScoreLabel.Text = "Score: " + snake.Count.ToString();
+                ScoreLabel.Text = "Final Score: " + (snake.Count-1).ToString();
                 GameOverPanel.Visible = true;
             }
         }
@@ -77,7 +77,7 @@ namespace Snake {
 
             if (btnArray[currentIndex].BackColor == Color.Firebrick) {
                 snake.Add(currentIndex);
-                label1.Text = snake.Count.ToString();
+                ScoreLabel.Text = (snake.Count-1).ToString();
                 spawn();
             }
             else if (btnArray[currentIndex].BackColor == Color.Black) {
@@ -149,7 +149,7 @@ namespace Snake {
             }
             trajectory = 16;
             snake.Clear();
-            label1.Text = "0";
+            ScoreLabel.Text = "0";
             currentIndex = 18;
             lastIndex = 200;
             spawn();

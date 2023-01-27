@@ -1,4 +1,10 @@
 namespace Snake {
+
+    //bugs
+    //when you start a new game, controls don't work until you select the game board
+    //
+    //improvements
+    //highscore sheet
     public partial class Form1 : Form {
         //global variables :(
         int currentIndex;
@@ -153,6 +159,7 @@ namespace Snake {
             currentIndex = 18;
             lastIndex = 200;
             spawn();
+            button1.Focus(); //??!
 
             timer.Start();
 

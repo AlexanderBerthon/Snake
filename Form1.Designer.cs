@@ -570,6 +570,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.PeachPuff;
+            this.button2.Enabled = false;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(20, 0);
@@ -583,6 +584,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.PeachPuff;
+            this.button3.Enabled = false;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(40, 0);
@@ -596,6 +598,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.PeachPuff;
+            this.button4.Enabled = false;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Location = new System.Drawing.Point(60, 0);
@@ -609,6 +612,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.PeachPuff;
+            this.button5.Enabled = false;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Location = new System.Drawing.Point(80, 0);
@@ -622,6 +626,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.PeachPuff;
+            this.button6.Enabled = false;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Location = new System.Drawing.Point(100, 0);
@@ -635,6 +640,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.PeachPuff;
+            this.button7.Enabled = false;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Location = new System.Drawing.Point(120, 0);
@@ -648,6 +654,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.PeachPuff;
+            this.button8.Enabled = false;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Location = new System.Drawing.Point(140, 0);
@@ -661,6 +668,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.PeachPuff;
+            this.button9.Enabled = false;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Location = new System.Drawing.Point(160, 0);
@@ -674,6 +682,7 @@
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.PeachPuff;
+            this.button10.Enabled = false;
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Location = new System.Drawing.Point(180, 0);
@@ -687,6 +696,7 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.PeachPuff;
+            this.button11.Enabled = false;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Location = new System.Drawing.Point(200, 0);
@@ -700,6 +710,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.PeachPuff;
+            this.button12.Enabled = false;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Location = new System.Drawing.Point(220, 0);
@@ -713,6 +724,7 @@
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.PeachPuff;
+            this.button13.Enabled = false;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Location = new System.Drawing.Point(240, 0);
@@ -726,6 +738,7 @@
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.PeachPuff;
+            this.button14.Enabled = false;
             this.button14.FlatAppearance.BorderSize = 0;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Location = new System.Drawing.Point(260, 0);
@@ -739,6 +752,7 @@
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.PeachPuff;
+            this.button15.Enabled = false;
             this.button15.FlatAppearance.BorderSize = 0;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Location = new System.Drawing.Point(280, 0);
@@ -752,6 +766,7 @@
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.PeachPuff;
+            this.button16.Enabled = false;
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button16.Location = new System.Drawing.Point(300, 0);
@@ -765,6 +780,7 @@
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.PeachPuff;
+            this.button17.Enabled = false;
             this.button17.FlatAppearance.BorderSize = 0;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.Location = new System.Drawing.Point(0, 20);
@@ -778,6 +794,7 @@
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.PeachPuff;
+            this.button18.Enabled = false;
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Location = new System.Drawing.Point(20, 20);
@@ -791,6 +808,7 @@
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.PeachPuff;
+            this.button19.Enabled = false;
             this.button19.FlatAppearance.BorderSize = 0;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Location = new System.Drawing.Point(40, 20);
@@ -804,6 +822,7 @@
             // button20
             // 
             this.button20.BackColor = System.Drawing.Color.PeachPuff;
+            this.button20.Enabled = false;
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Location = new System.Drawing.Point(60, 20);
@@ -817,6 +836,7 @@
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.PeachPuff;
+            this.button21.Enabled = false;
             this.button21.FlatAppearance.BorderSize = 0;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button21.Location = new System.Drawing.Point(80, 20);
@@ -830,6 +850,7 @@
             // button22
             // 
             this.button22.BackColor = System.Drawing.Color.PeachPuff;
+            this.button22.Enabled = false;
             this.button22.FlatAppearance.BorderSize = 0;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button22.Location = new System.Drawing.Point(100, 20);
@@ -843,6 +864,7 @@
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.PeachPuff;
+            this.button23.Enabled = false;
             this.button23.FlatAppearance.BorderSize = 0;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button23.Location = new System.Drawing.Point(120, 20);
@@ -856,6 +878,7 @@
             // button24
             // 
             this.button24.BackColor = System.Drawing.Color.PeachPuff;
+            this.button24.Enabled = false;
             this.button24.FlatAppearance.BorderSize = 0;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button24.Location = new System.Drawing.Point(140, 20);
@@ -869,6 +892,7 @@
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.PeachPuff;
+            this.button25.Enabled = false;
             this.button25.FlatAppearance.BorderSize = 0;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Location = new System.Drawing.Point(160, 20);
@@ -882,6 +906,7 @@
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.PeachPuff;
+            this.button26.Enabled = false;
             this.button26.FlatAppearance.BorderSize = 0;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Location = new System.Drawing.Point(180, 20);
@@ -895,6 +920,7 @@
             // button27
             // 
             this.button27.BackColor = System.Drawing.Color.PeachPuff;
+            this.button27.Enabled = false;
             this.button27.FlatAppearance.BorderSize = 0;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Location = new System.Drawing.Point(200, 20);
@@ -908,6 +934,7 @@
             // button28
             // 
             this.button28.BackColor = System.Drawing.Color.PeachPuff;
+            this.button28.Enabled = false;
             this.button28.FlatAppearance.BorderSize = 0;
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button28.Location = new System.Drawing.Point(220, 20);
@@ -921,6 +948,7 @@
             // button29
             // 
             this.button29.BackColor = System.Drawing.Color.PeachPuff;
+            this.button29.Enabled = false;
             this.button29.FlatAppearance.BorderSize = 0;
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Location = new System.Drawing.Point(240, 20);
@@ -934,6 +962,7 @@
             // button30
             // 
             this.button30.BackColor = System.Drawing.Color.PeachPuff;
+            this.button30.Enabled = false;
             this.button30.FlatAppearance.BorderSize = 0;
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Location = new System.Drawing.Point(260, 20);
@@ -947,6 +976,7 @@
             // button31
             // 
             this.button31.BackColor = System.Drawing.Color.PeachPuff;
+            this.button31.Enabled = false;
             this.button31.FlatAppearance.BorderSize = 0;
             this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button31.Location = new System.Drawing.Point(280, 20);
@@ -960,6 +990,7 @@
             // button32
             // 
             this.button32.BackColor = System.Drawing.Color.PeachPuff;
+            this.button32.Enabled = false;
             this.button32.FlatAppearance.BorderSize = 0;
             this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button32.Location = new System.Drawing.Point(300, 20);
@@ -973,6 +1004,7 @@
             // button33
             // 
             this.button33.BackColor = System.Drawing.Color.PeachPuff;
+            this.button33.Enabled = false;
             this.button33.FlatAppearance.BorderSize = 0;
             this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button33.Location = new System.Drawing.Point(0, 40);
@@ -986,6 +1018,7 @@
             // button34
             // 
             this.button34.BackColor = System.Drawing.Color.PeachPuff;
+            this.button34.Enabled = false;
             this.button34.FlatAppearance.BorderSize = 0;
             this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button34.Location = new System.Drawing.Point(20, 40);
@@ -999,6 +1032,7 @@
             // button35
             // 
             this.button35.BackColor = System.Drawing.Color.PeachPuff;
+            this.button35.Enabled = false;
             this.button35.FlatAppearance.BorderSize = 0;
             this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button35.Location = new System.Drawing.Point(40, 40);
@@ -1012,6 +1046,7 @@
             // button36
             // 
             this.button36.BackColor = System.Drawing.Color.PeachPuff;
+            this.button36.Enabled = false;
             this.button36.FlatAppearance.BorderSize = 0;
             this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button36.Location = new System.Drawing.Point(60, 40);
@@ -1025,6 +1060,7 @@
             // button37
             // 
             this.button37.BackColor = System.Drawing.Color.PeachPuff;
+            this.button37.Enabled = false;
             this.button37.FlatAppearance.BorderSize = 0;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button37.Location = new System.Drawing.Point(80, 40);
@@ -1038,6 +1074,7 @@
             // button38
             // 
             this.button38.BackColor = System.Drawing.Color.PeachPuff;
+            this.button38.Enabled = false;
             this.button38.FlatAppearance.BorderSize = 0;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button38.Location = new System.Drawing.Point(100, 40);
@@ -1051,6 +1088,7 @@
             // button39
             // 
             this.button39.BackColor = System.Drawing.Color.PeachPuff;
+            this.button39.Enabled = false;
             this.button39.FlatAppearance.BorderSize = 0;
             this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button39.Location = new System.Drawing.Point(120, 40);
@@ -1064,6 +1102,7 @@
             // button40
             // 
             this.button40.BackColor = System.Drawing.Color.PeachPuff;
+            this.button40.Enabled = false;
             this.button40.FlatAppearance.BorderSize = 0;
             this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button40.Location = new System.Drawing.Point(140, 40);
@@ -1077,6 +1116,7 @@
             // button41
             // 
             this.button41.BackColor = System.Drawing.Color.PeachPuff;
+            this.button41.Enabled = false;
             this.button41.FlatAppearance.BorderSize = 0;
             this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button41.Location = new System.Drawing.Point(160, 40);
@@ -1090,6 +1130,7 @@
             // button42
             // 
             this.button42.BackColor = System.Drawing.Color.PeachPuff;
+            this.button42.Enabled = false;
             this.button42.FlatAppearance.BorderSize = 0;
             this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button42.Location = new System.Drawing.Point(180, 40);
@@ -1103,6 +1144,7 @@
             // button43
             // 
             this.button43.BackColor = System.Drawing.Color.PeachPuff;
+            this.button43.Enabled = false;
             this.button43.FlatAppearance.BorderSize = 0;
             this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button43.Location = new System.Drawing.Point(200, 40);
@@ -1116,6 +1158,7 @@
             // button44
             // 
             this.button44.BackColor = System.Drawing.Color.PeachPuff;
+            this.button44.Enabled = false;
             this.button44.FlatAppearance.BorderSize = 0;
             this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button44.Location = new System.Drawing.Point(220, 40);
@@ -1129,6 +1172,7 @@
             // button45
             // 
             this.button45.BackColor = System.Drawing.Color.PeachPuff;
+            this.button45.Enabled = false;
             this.button45.FlatAppearance.BorderSize = 0;
             this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button45.Location = new System.Drawing.Point(240, 40);
@@ -1142,6 +1186,7 @@
             // button46
             // 
             this.button46.BackColor = System.Drawing.Color.PeachPuff;
+            this.button46.Enabled = false;
             this.button46.FlatAppearance.BorderSize = 0;
             this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button46.Location = new System.Drawing.Point(260, 40);
@@ -1155,6 +1200,7 @@
             // button47
             // 
             this.button47.BackColor = System.Drawing.Color.PeachPuff;
+            this.button47.Enabled = false;
             this.button47.FlatAppearance.BorderSize = 0;
             this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button47.Location = new System.Drawing.Point(280, 40);
@@ -1168,6 +1214,7 @@
             // button48
             // 
             this.button48.BackColor = System.Drawing.Color.PeachPuff;
+            this.button48.Enabled = false;
             this.button48.FlatAppearance.BorderSize = 0;
             this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button48.Location = new System.Drawing.Point(300, 40);
@@ -1181,6 +1228,7 @@
             // button49
             // 
             this.button49.BackColor = System.Drawing.Color.PeachPuff;
+            this.button49.Enabled = false;
             this.button49.FlatAppearance.BorderSize = 0;
             this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button49.Location = new System.Drawing.Point(0, 60);
@@ -1194,6 +1242,7 @@
             // button50
             // 
             this.button50.BackColor = System.Drawing.Color.PeachPuff;
+            this.button50.Enabled = false;
             this.button50.FlatAppearance.BorderSize = 0;
             this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button50.Location = new System.Drawing.Point(20, 60);
@@ -1207,6 +1256,7 @@
             // button51
             // 
             this.button51.BackColor = System.Drawing.Color.PeachPuff;
+            this.button51.Enabled = false;
             this.button51.FlatAppearance.BorderSize = 0;
             this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button51.Location = new System.Drawing.Point(40, 60);
@@ -1220,6 +1270,7 @@
             // button52
             // 
             this.button52.BackColor = System.Drawing.Color.PeachPuff;
+            this.button52.Enabled = false;
             this.button52.FlatAppearance.BorderSize = 0;
             this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button52.Location = new System.Drawing.Point(60, 60);
@@ -1233,6 +1284,7 @@
             // button53
             // 
             this.button53.BackColor = System.Drawing.Color.PeachPuff;
+            this.button53.Enabled = false;
             this.button53.FlatAppearance.BorderSize = 0;
             this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button53.Location = new System.Drawing.Point(80, 60);
@@ -1246,6 +1298,7 @@
             // button54
             // 
             this.button54.BackColor = System.Drawing.Color.PeachPuff;
+            this.button54.Enabled = false;
             this.button54.FlatAppearance.BorderSize = 0;
             this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button54.Location = new System.Drawing.Point(100, 60);
@@ -1259,6 +1312,7 @@
             // button55
             // 
             this.button55.BackColor = System.Drawing.Color.PeachPuff;
+            this.button55.Enabled = false;
             this.button55.FlatAppearance.BorderSize = 0;
             this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button55.Location = new System.Drawing.Point(120, 60);
@@ -1272,6 +1326,7 @@
             // button56
             // 
             this.button56.BackColor = System.Drawing.Color.PeachPuff;
+            this.button56.Enabled = false;
             this.button56.FlatAppearance.BorderSize = 0;
             this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button56.Location = new System.Drawing.Point(140, 60);
@@ -1285,6 +1340,7 @@
             // button57
             // 
             this.button57.BackColor = System.Drawing.Color.PeachPuff;
+            this.button57.Enabled = false;
             this.button57.FlatAppearance.BorderSize = 0;
             this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button57.Location = new System.Drawing.Point(160, 60);
@@ -1298,6 +1354,7 @@
             // button58
             // 
             this.button58.BackColor = System.Drawing.Color.PeachPuff;
+            this.button58.Enabled = false;
             this.button58.FlatAppearance.BorderSize = 0;
             this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button58.Location = new System.Drawing.Point(180, 60);
@@ -1311,6 +1368,7 @@
             // button59
             // 
             this.button59.BackColor = System.Drawing.Color.PeachPuff;
+            this.button59.Enabled = false;
             this.button59.FlatAppearance.BorderSize = 0;
             this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button59.Location = new System.Drawing.Point(200, 60);
@@ -1324,6 +1382,7 @@
             // button60
             // 
             this.button60.BackColor = System.Drawing.Color.PeachPuff;
+            this.button60.Enabled = false;
             this.button60.FlatAppearance.BorderSize = 0;
             this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button60.Location = new System.Drawing.Point(220, 60);
@@ -1337,6 +1396,7 @@
             // button61
             // 
             this.button61.BackColor = System.Drawing.Color.PeachPuff;
+            this.button61.Enabled = false;
             this.button61.FlatAppearance.BorderSize = 0;
             this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button61.Location = new System.Drawing.Point(240, 60);
@@ -1350,6 +1410,7 @@
             // button62
             // 
             this.button62.BackColor = System.Drawing.Color.PeachPuff;
+            this.button62.Enabled = false;
             this.button62.FlatAppearance.BorderSize = 0;
             this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button62.Location = new System.Drawing.Point(260, 60);
@@ -1363,6 +1424,7 @@
             // button63
             // 
             this.button63.BackColor = System.Drawing.Color.PeachPuff;
+            this.button63.Enabled = false;
             this.button63.FlatAppearance.BorderSize = 0;
             this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button63.Location = new System.Drawing.Point(280, 60);
@@ -1376,6 +1438,7 @@
             // button64
             // 
             this.button64.BackColor = System.Drawing.Color.PeachPuff;
+            this.button64.Enabled = false;
             this.button64.FlatAppearance.BorderSize = 0;
             this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button64.Location = new System.Drawing.Point(300, 60);
@@ -1389,6 +1452,7 @@
             // button65
             // 
             this.button65.BackColor = System.Drawing.Color.PeachPuff;
+            this.button65.Enabled = false;
             this.button65.FlatAppearance.BorderSize = 0;
             this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button65.Location = new System.Drawing.Point(0, 80);
@@ -1402,6 +1466,7 @@
             // button66
             // 
             this.button66.BackColor = System.Drawing.Color.PeachPuff;
+            this.button66.Enabled = false;
             this.button66.FlatAppearance.BorderSize = 0;
             this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button66.Location = new System.Drawing.Point(20, 80);
@@ -1415,6 +1480,7 @@
             // button67
             // 
             this.button67.BackColor = System.Drawing.Color.PeachPuff;
+            this.button67.Enabled = false;
             this.button67.FlatAppearance.BorderSize = 0;
             this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button67.Location = new System.Drawing.Point(40, 80);
@@ -1428,6 +1494,7 @@
             // button68
             // 
             this.button68.BackColor = System.Drawing.Color.PeachPuff;
+            this.button68.Enabled = false;
             this.button68.FlatAppearance.BorderSize = 0;
             this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button68.Location = new System.Drawing.Point(60, 80);
@@ -1441,6 +1508,7 @@
             // button69
             // 
             this.button69.BackColor = System.Drawing.Color.PeachPuff;
+            this.button69.Enabled = false;
             this.button69.FlatAppearance.BorderSize = 0;
             this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button69.Location = new System.Drawing.Point(80, 80);
@@ -1454,6 +1522,7 @@
             // button70
             // 
             this.button70.BackColor = System.Drawing.Color.PeachPuff;
+            this.button70.Enabled = false;
             this.button70.FlatAppearance.BorderSize = 0;
             this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button70.Location = new System.Drawing.Point(100, 80);
@@ -1467,6 +1536,7 @@
             // button71
             // 
             this.button71.BackColor = System.Drawing.Color.PeachPuff;
+            this.button71.Enabled = false;
             this.button71.FlatAppearance.BorderSize = 0;
             this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button71.Location = new System.Drawing.Point(120, 80);
@@ -1480,6 +1550,7 @@
             // button72
             // 
             this.button72.BackColor = System.Drawing.Color.PeachPuff;
+            this.button72.Enabled = false;
             this.button72.FlatAppearance.BorderSize = 0;
             this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button72.Location = new System.Drawing.Point(140, 80);
@@ -1493,6 +1564,7 @@
             // button73
             // 
             this.button73.BackColor = System.Drawing.Color.PeachPuff;
+            this.button73.Enabled = false;
             this.button73.FlatAppearance.BorderSize = 0;
             this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button73.Location = new System.Drawing.Point(160, 80);
@@ -1506,6 +1578,7 @@
             // button74
             // 
             this.button74.BackColor = System.Drawing.Color.PeachPuff;
+            this.button74.Enabled = false;
             this.button74.FlatAppearance.BorderSize = 0;
             this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button74.Location = new System.Drawing.Point(180, 80);
@@ -1519,6 +1592,7 @@
             // button75
             // 
             this.button75.BackColor = System.Drawing.Color.PeachPuff;
+            this.button75.Enabled = false;
             this.button75.FlatAppearance.BorderSize = 0;
             this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button75.Location = new System.Drawing.Point(200, 80);
@@ -1532,6 +1606,7 @@
             // button76
             // 
             this.button76.BackColor = System.Drawing.Color.PeachPuff;
+            this.button76.Enabled = false;
             this.button76.FlatAppearance.BorderSize = 0;
             this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button76.Location = new System.Drawing.Point(220, 80);
@@ -1545,6 +1620,7 @@
             // button77
             // 
             this.button77.BackColor = System.Drawing.Color.PeachPuff;
+            this.button77.Enabled = false;
             this.button77.FlatAppearance.BorderSize = 0;
             this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button77.Location = new System.Drawing.Point(240, 80);
@@ -1558,6 +1634,7 @@
             // button78
             // 
             this.button78.BackColor = System.Drawing.Color.PeachPuff;
+            this.button78.Enabled = false;
             this.button78.FlatAppearance.BorderSize = 0;
             this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button78.Location = new System.Drawing.Point(260, 80);
@@ -1571,6 +1648,7 @@
             // button79
             // 
             this.button79.BackColor = System.Drawing.Color.PeachPuff;
+            this.button79.Enabled = false;
             this.button79.FlatAppearance.BorderSize = 0;
             this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button79.Location = new System.Drawing.Point(280, 80);
@@ -1584,6 +1662,7 @@
             // button80
             // 
             this.button80.BackColor = System.Drawing.Color.PeachPuff;
+            this.button80.Enabled = false;
             this.button80.FlatAppearance.BorderSize = 0;
             this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button80.Location = new System.Drawing.Point(300, 80);
@@ -1597,6 +1676,7 @@
             // button81
             // 
             this.button81.BackColor = System.Drawing.Color.PeachPuff;
+            this.button81.Enabled = false;
             this.button81.FlatAppearance.BorderSize = 0;
             this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button81.Location = new System.Drawing.Point(0, 100);
@@ -1610,6 +1690,7 @@
             // button82
             // 
             this.button82.BackColor = System.Drawing.Color.PeachPuff;
+            this.button82.Enabled = false;
             this.button82.FlatAppearance.BorderSize = 0;
             this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button82.Location = new System.Drawing.Point(20, 100);
@@ -1623,6 +1704,7 @@
             // button83
             // 
             this.button83.BackColor = System.Drawing.Color.PeachPuff;
+            this.button83.Enabled = false;
             this.button83.FlatAppearance.BorderSize = 0;
             this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button83.Location = new System.Drawing.Point(40, 100);
@@ -1636,6 +1718,7 @@
             // button84
             // 
             this.button84.BackColor = System.Drawing.Color.PeachPuff;
+            this.button84.Enabled = false;
             this.button84.FlatAppearance.BorderSize = 0;
             this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button84.Location = new System.Drawing.Point(60, 100);
@@ -1649,6 +1732,7 @@
             // button85
             // 
             this.button85.BackColor = System.Drawing.Color.PeachPuff;
+            this.button85.Enabled = false;
             this.button85.FlatAppearance.BorderSize = 0;
             this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button85.Location = new System.Drawing.Point(80, 100);
@@ -1662,6 +1746,7 @@
             // button86
             // 
             this.button86.BackColor = System.Drawing.Color.PeachPuff;
+            this.button86.Enabled = false;
             this.button86.FlatAppearance.BorderSize = 0;
             this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button86.Location = new System.Drawing.Point(100, 100);
@@ -1675,6 +1760,7 @@
             // button87
             // 
             this.button87.BackColor = System.Drawing.Color.PeachPuff;
+            this.button87.Enabled = false;
             this.button87.FlatAppearance.BorderSize = 0;
             this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button87.Location = new System.Drawing.Point(120, 100);
@@ -1688,6 +1774,7 @@
             // button88
             // 
             this.button88.BackColor = System.Drawing.Color.PeachPuff;
+            this.button88.Enabled = false;
             this.button88.FlatAppearance.BorderSize = 0;
             this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button88.Location = new System.Drawing.Point(140, 100);
@@ -1701,6 +1788,7 @@
             // button89
             // 
             this.button89.BackColor = System.Drawing.Color.PeachPuff;
+            this.button89.Enabled = false;
             this.button89.FlatAppearance.BorderSize = 0;
             this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button89.Location = new System.Drawing.Point(160, 100);
@@ -1714,6 +1802,7 @@
             // button90
             // 
             this.button90.BackColor = System.Drawing.Color.PeachPuff;
+            this.button90.Enabled = false;
             this.button90.FlatAppearance.BorderSize = 0;
             this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button90.Location = new System.Drawing.Point(180, 100);
@@ -1727,6 +1816,7 @@
             // button91
             // 
             this.button91.BackColor = System.Drawing.Color.PeachPuff;
+            this.button91.Enabled = false;
             this.button91.FlatAppearance.BorderSize = 0;
             this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button91.Location = new System.Drawing.Point(200, 100);
@@ -1740,6 +1830,7 @@
             // button92
             // 
             this.button92.BackColor = System.Drawing.Color.PeachPuff;
+            this.button92.Enabled = false;
             this.button92.FlatAppearance.BorderSize = 0;
             this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button92.Location = new System.Drawing.Point(220, 100);
@@ -1753,6 +1844,7 @@
             // button93
             // 
             this.button93.BackColor = System.Drawing.Color.PeachPuff;
+            this.button93.Enabled = false;
             this.button93.FlatAppearance.BorderSize = 0;
             this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button93.Location = new System.Drawing.Point(240, 100);
@@ -1766,6 +1858,7 @@
             // button94
             // 
             this.button94.BackColor = System.Drawing.Color.PeachPuff;
+            this.button94.Enabled = false;
             this.button94.FlatAppearance.BorderSize = 0;
             this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button94.Location = new System.Drawing.Point(260, 100);
@@ -1779,6 +1872,7 @@
             // button95
             // 
             this.button95.BackColor = System.Drawing.Color.PeachPuff;
+            this.button95.Enabled = false;
             this.button95.FlatAppearance.BorderSize = 0;
             this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button95.Location = new System.Drawing.Point(280, 100);
@@ -1792,6 +1886,7 @@
             // button96
             // 
             this.button96.BackColor = System.Drawing.Color.PeachPuff;
+            this.button96.Enabled = false;
             this.button96.FlatAppearance.BorderSize = 0;
             this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button96.Location = new System.Drawing.Point(300, 100);
@@ -1805,6 +1900,7 @@
             // button97
             // 
             this.button97.BackColor = System.Drawing.Color.PeachPuff;
+            this.button97.Enabled = false;
             this.button97.FlatAppearance.BorderSize = 0;
             this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button97.Location = new System.Drawing.Point(0, 120);
@@ -1818,6 +1914,7 @@
             // button98
             // 
             this.button98.BackColor = System.Drawing.Color.PeachPuff;
+            this.button98.Enabled = false;
             this.button98.FlatAppearance.BorderSize = 0;
             this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button98.Location = new System.Drawing.Point(20, 120);
@@ -1831,6 +1928,7 @@
             // button99
             // 
             this.button99.BackColor = System.Drawing.Color.PeachPuff;
+            this.button99.Enabled = false;
             this.button99.FlatAppearance.BorderSize = 0;
             this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button99.Location = new System.Drawing.Point(40, 120);
@@ -1844,6 +1942,7 @@
             // button100
             // 
             this.button100.BackColor = System.Drawing.Color.PeachPuff;
+            this.button100.Enabled = false;
             this.button100.FlatAppearance.BorderSize = 0;
             this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button100.Location = new System.Drawing.Point(60, 120);
@@ -1857,6 +1956,7 @@
             // button101
             // 
             this.button101.BackColor = System.Drawing.Color.PeachPuff;
+            this.button101.Enabled = false;
             this.button101.FlatAppearance.BorderSize = 0;
             this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button101.Location = new System.Drawing.Point(80, 120);
@@ -1870,6 +1970,7 @@
             // button102
             // 
             this.button102.BackColor = System.Drawing.Color.PeachPuff;
+            this.button102.Enabled = false;
             this.button102.FlatAppearance.BorderSize = 0;
             this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button102.Location = new System.Drawing.Point(100, 120);
@@ -1883,6 +1984,7 @@
             // button103
             // 
             this.button103.BackColor = System.Drawing.Color.PeachPuff;
+            this.button103.Enabled = false;
             this.button103.FlatAppearance.BorderSize = 0;
             this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button103.Location = new System.Drawing.Point(120, 120);
@@ -1896,6 +1998,7 @@
             // button104
             // 
             this.button104.BackColor = System.Drawing.Color.PeachPuff;
+            this.button104.Enabled = false;
             this.button104.FlatAppearance.BorderSize = 0;
             this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button104.Location = new System.Drawing.Point(140, 120);
@@ -1909,6 +2012,7 @@
             // button105
             // 
             this.button105.BackColor = System.Drawing.Color.PeachPuff;
+            this.button105.Enabled = false;
             this.button105.FlatAppearance.BorderSize = 0;
             this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button105.Location = new System.Drawing.Point(160, 120);
@@ -1922,6 +2026,7 @@
             // button106
             // 
             this.button106.BackColor = System.Drawing.Color.PeachPuff;
+            this.button106.Enabled = false;
             this.button106.FlatAppearance.BorderSize = 0;
             this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button106.Location = new System.Drawing.Point(180, 120);
@@ -1935,6 +2040,7 @@
             // button107
             // 
             this.button107.BackColor = System.Drawing.Color.PeachPuff;
+            this.button107.Enabled = false;
             this.button107.FlatAppearance.BorderSize = 0;
             this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button107.Location = new System.Drawing.Point(200, 120);
@@ -1948,6 +2054,7 @@
             // button108
             // 
             this.button108.BackColor = System.Drawing.Color.PeachPuff;
+            this.button108.Enabled = false;
             this.button108.FlatAppearance.BorderSize = 0;
             this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button108.Location = new System.Drawing.Point(220, 120);
@@ -1961,6 +2068,7 @@
             // button109
             // 
             this.button109.BackColor = System.Drawing.Color.PeachPuff;
+            this.button109.Enabled = false;
             this.button109.FlatAppearance.BorderSize = 0;
             this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button109.Location = new System.Drawing.Point(240, 120);
@@ -1974,6 +2082,7 @@
             // button110
             // 
             this.button110.BackColor = System.Drawing.Color.PeachPuff;
+            this.button110.Enabled = false;
             this.button110.FlatAppearance.BorderSize = 0;
             this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button110.Location = new System.Drawing.Point(260, 120);
@@ -1987,6 +2096,7 @@
             // button111
             // 
             this.button111.BackColor = System.Drawing.Color.PeachPuff;
+            this.button111.Enabled = false;
             this.button111.FlatAppearance.BorderSize = 0;
             this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button111.Location = new System.Drawing.Point(280, 120);
@@ -2000,6 +2110,7 @@
             // button112
             // 
             this.button112.BackColor = System.Drawing.Color.PeachPuff;
+            this.button112.Enabled = false;
             this.button112.FlatAppearance.BorderSize = 0;
             this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button112.Location = new System.Drawing.Point(300, 120);
@@ -2013,6 +2124,7 @@
             // button113
             // 
             this.button113.BackColor = System.Drawing.Color.PeachPuff;
+            this.button113.Enabled = false;
             this.button113.FlatAppearance.BorderSize = 0;
             this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button113.Location = new System.Drawing.Point(0, 140);
@@ -2026,6 +2138,7 @@
             // button114
             // 
             this.button114.BackColor = System.Drawing.Color.PeachPuff;
+            this.button114.Enabled = false;
             this.button114.FlatAppearance.BorderSize = 0;
             this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button114.Location = new System.Drawing.Point(20, 140);
@@ -2039,6 +2152,7 @@
             // button115
             // 
             this.button115.BackColor = System.Drawing.Color.PeachPuff;
+            this.button115.Enabled = false;
             this.button115.FlatAppearance.BorderSize = 0;
             this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button115.Location = new System.Drawing.Point(40, 140);
@@ -2052,6 +2166,7 @@
             // button116
             // 
             this.button116.BackColor = System.Drawing.Color.PeachPuff;
+            this.button116.Enabled = false;
             this.button116.FlatAppearance.BorderSize = 0;
             this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button116.Location = new System.Drawing.Point(60, 140);
@@ -2065,6 +2180,7 @@
             // button117
             // 
             this.button117.BackColor = System.Drawing.Color.PeachPuff;
+            this.button117.Enabled = false;
             this.button117.FlatAppearance.BorderSize = 0;
             this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button117.Location = new System.Drawing.Point(80, 140);
@@ -2078,6 +2194,7 @@
             // button118
             // 
             this.button118.BackColor = System.Drawing.Color.PeachPuff;
+            this.button118.Enabled = false;
             this.button118.FlatAppearance.BorderSize = 0;
             this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button118.Location = new System.Drawing.Point(100, 140);
@@ -2091,6 +2208,7 @@
             // button119
             // 
             this.button119.BackColor = System.Drawing.Color.PeachPuff;
+            this.button119.Enabled = false;
             this.button119.FlatAppearance.BorderSize = 0;
             this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button119.Location = new System.Drawing.Point(120, 140);
@@ -2104,6 +2222,7 @@
             // button120
             // 
             this.button120.BackColor = System.Drawing.Color.PeachPuff;
+            this.button120.Enabled = false;
             this.button120.FlatAppearance.BorderSize = 0;
             this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button120.Location = new System.Drawing.Point(140, 140);
@@ -2117,6 +2236,7 @@
             // button121
             // 
             this.button121.BackColor = System.Drawing.Color.PeachPuff;
+            this.button121.Enabled = false;
             this.button121.FlatAppearance.BorderSize = 0;
             this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button121.Location = new System.Drawing.Point(160, 140);
@@ -2130,6 +2250,7 @@
             // button122
             // 
             this.button122.BackColor = System.Drawing.Color.PeachPuff;
+            this.button122.Enabled = false;
             this.button122.FlatAppearance.BorderSize = 0;
             this.button122.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button122.Location = new System.Drawing.Point(180, 140);
@@ -2143,6 +2264,7 @@
             // button123
             // 
             this.button123.BackColor = System.Drawing.Color.PeachPuff;
+            this.button123.Enabled = false;
             this.button123.FlatAppearance.BorderSize = 0;
             this.button123.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button123.Location = new System.Drawing.Point(200, 140);
@@ -2156,6 +2278,7 @@
             // button124
             // 
             this.button124.BackColor = System.Drawing.Color.PeachPuff;
+            this.button124.Enabled = false;
             this.button124.FlatAppearance.BorderSize = 0;
             this.button124.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button124.Location = new System.Drawing.Point(220, 140);
@@ -2169,6 +2292,7 @@
             // button125
             // 
             this.button125.BackColor = System.Drawing.Color.PeachPuff;
+            this.button125.Enabled = false;
             this.button125.FlatAppearance.BorderSize = 0;
             this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button125.Location = new System.Drawing.Point(240, 140);
@@ -2182,6 +2306,7 @@
             // button126
             // 
             this.button126.BackColor = System.Drawing.Color.PeachPuff;
+            this.button126.Enabled = false;
             this.button126.FlatAppearance.BorderSize = 0;
             this.button126.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button126.Location = new System.Drawing.Point(260, 140);
@@ -2195,6 +2320,7 @@
             // button127
             // 
             this.button127.BackColor = System.Drawing.Color.PeachPuff;
+            this.button127.Enabled = false;
             this.button127.FlatAppearance.BorderSize = 0;
             this.button127.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button127.Location = new System.Drawing.Point(280, 140);
@@ -2208,6 +2334,7 @@
             // button128
             // 
             this.button128.BackColor = System.Drawing.Color.PeachPuff;
+            this.button128.Enabled = false;
             this.button128.FlatAppearance.BorderSize = 0;
             this.button128.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button128.Location = new System.Drawing.Point(300, 140);
@@ -2221,6 +2348,7 @@
             // button129
             // 
             this.button129.BackColor = System.Drawing.Color.PeachPuff;
+            this.button129.Enabled = false;
             this.button129.FlatAppearance.BorderSize = 0;
             this.button129.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button129.Location = new System.Drawing.Point(0, 160);
@@ -2234,6 +2362,7 @@
             // button130
             // 
             this.button130.BackColor = System.Drawing.Color.PeachPuff;
+            this.button130.Enabled = false;
             this.button130.FlatAppearance.BorderSize = 0;
             this.button130.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button130.Location = new System.Drawing.Point(20, 160);
@@ -2247,6 +2376,7 @@
             // button131
             // 
             this.button131.BackColor = System.Drawing.Color.PeachPuff;
+            this.button131.Enabled = false;
             this.button131.FlatAppearance.BorderSize = 0;
             this.button131.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button131.Location = new System.Drawing.Point(40, 160);
@@ -2260,6 +2390,7 @@
             // button132
             // 
             this.button132.BackColor = System.Drawing.Color.PeachPuff;
+            this.button132.Enabled = false;
             this.button132.FlatAppearance.BorderSize = 0;
             this.button132.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button132.Location = new System.Drawing.Point(60, 160);
@@ -2273,6 +2404,7 @@
             // button133
             // 
             this.button133.BackColor = System.Drawing.Color.PeachPuff;
+            this.button133.Enabled = false;
             this.button133.FlatAppearance.BorderSize = 0;
             this.button133.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button133.Location = new System.Drawing.Point(80, 160);
@@ -2286,6 +2418,7 @@
             // button134
             // 
             this.button134.BackColor = System.Drawing.Color.PeachPuff;
+            this.button134.Enabled = false;
             this.button134.FlatAppearance.BorderSize = 0;
             this.button134.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button134.Location = new System.Drawing.Point(100, 160);
@@ -2299,6 +2432,7 @@
             // button135
             // 
             this.button135.BackColor = System.Drawing.Color.PeachPuff;
+            this.button135.Enabled = false;
             this.button135.FlatAppearance.BorderSize = 0;
             this.button135.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button135.Location = new System.Drawing.Point(120, 160);
@@ -2312,6 +2446,7 @@
             // button136
             // 
             this.button136.BackColor = System.Drawing.Color.PeachPuff;
+            this.button136.Enabled = false;
             this.button136.FlatAppearance.BorderSize = 0;
             this.button136.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button136.Location = new System.Drawing.Point(140, 160);
@@ -2325,6 +2460,7 @@
             // button137
             // 
             this.button137.BackColor = System.Drawing.Color.PeachPuff;
+            this.button137.Enabled = false;
             this.button137.FlatAppearance.BorderSize = 0;
             this.button137.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button137.Location = new System.Drawing.Point(160, 160);
@@ -2338,6 +2474,7 @@
             // button138
             // 
             this.button138.BackColor = System.Drawing.Color.PeachPuff;
+            this.button138.Enabled = false;
             this.button138.FlatAppearance.BorderSize = 0;
             this.button138.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button138.Location = new System.Drawing.Point(180, 160);
@@ -2351,6 +2488,7 @@
             // button139
             // 
             this.button139.BackColor = System.Drawing.Color.PeachPuff;
+            this.button139.Enabled = false;
             this.button139.FlatAppearance.BorderSize = 0;
             this.button139.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button139.Location = new System.Drawing.Point(200, 160);
@@ -2364,6 +2502,7 @@
             // button140
             // 
             this.button140.BackColor = System.Drawing.Color.PeachPuff;
+            this.button140.Enabled = false;
             this.button140.FlatAppearance.BorderSize = 0;
             this.button140.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button140.Location = new System.Drawing.Point(220, 160);
@@ -2377,6 +2516,7 @@
             // button141
             // 
             this.button141.BackColor = System.Drawing.Color.PeachPuff;
+            this.button141.Enabled = false;
             this.button141.FlatAppearance.BorderSize = 0;
             this.button141.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button141.Location = new System.Drawing.Point(240, 160);
@@ -2390,6 +2530,7 @@
             // button142
             // 
             this.button142.BackColor = System.Drawing.Color.PeachPuff;
+            this.button142.Enabled = false;
             this.button142.FlatAppearance.BorderSize = 0;
             this.button142.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button142.Location = new System.Drawing.Point(260, 160);
@@ -2403,6 +2544,7 @@
             // button143
             // 
             this.button143.BackColor = System.Drawing.Color.PeachPuff;
+            this.button143.Enabled = false;
             this.button143.FlatAppearance.BorderSize = 0;
             this.button143.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button143.Location = new System.Drawing.Point(280, 160);
@@ -2416,6 +2558,7 @@
             // button144
             // 
             this.button144.BackColor = System.Drawing.Color.PeachPuff;
+            this.button144.Enabled = false;
             this.button144.FlatAppearance.BorderSize = 0;
             this.button144.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button144.Location = new System.Drawing.Point(300, 160);
@@ -2429,6 +2572,7 @@
             // button145
             // 
             this.button145.BackColor = System.Drawing.Color.PeachPuff;
+            this.button145.Enabled = false;
             this.button145.FlatAppearance.BorderSize = 0;
             this.button145.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button145.Location = new System.Drawing.Point(0, 180);
@@ -2442,6 +2586,7 @@
             // button146
             // 
             this.button146.BackColor = System.Drawing.Color.PeachPuff;
+            this.button146.Enabled = false;
             this.button146.FlatAppearance.BorderSize = 0;
             this.button146.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button146.Location = new System.Drawing.Point(20, 180);
@@ -2455,6 +2600,7 @@
             // button147
             // 
             this.button147.BackColor = System.Drawing.Color.PeachPuff;
+            this.button147.Enabled = false;
             this.button147.FlatAppearance.BorderSize = 0;
             this.button147.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button147.Location = new System.Drawing.Point(40, 180);
@@ -2468,6 +2614,7 @@
             // button148
             // 
             this.button148.BackColor = System.Drawing.Color.PeachPuff;
+            this.button148.Enabled = false;
             this.button148.FlatAppearance.BorderSize = 0;
             this.button148.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button148.Location = new System.Drawing.Point(60, 180);
@@ -2481,6 +2628,7 @@
             // button149
             // 
             this.button149.BackColor = System.Drawing.Color.PeachPuff;
+            this.button149.Enabled = false;
             this.button149.FlatAppearance.BorderSize = 0;
             this.button149.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button149.Location = new System.Drawing.Point(80, 180);
@@ -2494,6 +2642,7 @@
             // button150
             // 
             this.button150.BackColor = System.Drawing.Color.PeachPuff;
+            this.button150.Enabled = false;
             this.button150.FlatAppearance.BorderSize = 0;
             this.button150.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button150.Location = new System.Drawing.Point(100, 180);
@@ -2507,6 +2656,7 @@
             // button151
             // 
             this.button151.BackColor = System.Drawing.Color.PeachPuff;
+            this.button151.Enabled = false;
             this.button151.FlatAppearance.BorderSize = 0;
             this.button151.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button151.Location = new System.Drawing.Point(120, 180);
@@ -2520,6 +2670,7 @@
             // button152
             // 
             this.button152.BackColor = System.Drawing.Color.PeachPuff;
+            this.button152.Enabled = false;
             this.button152.FlatAppearance.BorderSize = 0;
             this.button152.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button152.Location = new System.Drawing.Point(140, 180);
@@ -2533,6 +2684,7 @@
             // button153
             // 
             this.button153.BackColor = System.Drawing.Color.PeachPuff;
+            this.button153.Enabled = false;
             this.button153.FlatAppearance.BorderSize = 0;
             this.button153.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button153.Location = new System.Drawing.Point(160, 180);
@@ -2546,6 +2698,7 @@
             // button154
             // 
             this.button154.BackColor = System.Drawing.Color.PeachPuff;
+            this.button154.Enabled = false;
             this.button154.FlatAppearance.BorderSize = 0;
             this.button154.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button154.Location = new System.Drawing.Point(180, 180);
@@ -2559,6 +2712,7 @@
             // button155
             // 
             this.button155.BackColor = System.Drawing.Color.PeachPuff;
+            this.button155.Enabled = false;
             this.button155.FlatAppearance.BorderSize = 0;
             this.button155.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button155.Location = new System.Drawing.Point(200, 180);
@@ -2572,6 +2726,7 @@
             // button156
             // 
             this.button156.BackColor = System.Drawing.Color.PeachPuff;
+            this.button156.Enabled = false;
             this.button156.FlatAppearance.BorderSize = 0;
             this.button156.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button156.Location = new System.Drawing.Point(220, 180);
@@ -2585,6 +2740,7 @@
             // button157
             // 
             this.button157.BackColor = System.Drawing.Color.PeachPuff;
+            this.button157.Enabled = false;
             this.button157.FlatAppearance.BorderSize = 0;
             this.button157.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button157.Location = new System.Drawing.Point(240, 180);
@@ -2598,6 +2754,7 @@
             // button158
             // 
             this.button158.BackColor = System.Drawing.Color.PeachPuff;
+            this.button158.Enabled = false;
             this.button158.FlatAppearance.BorderSize = 0;
             this.button158.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button158.Location = new System.Drawing.Point(260, 180);
@@ -2611,6 +2768,7 @@
             // button159
             // 
             this.button159.BackColor = System.Drawing.Color.PeachPuff;
+            this.button159.Enabled = false;
             this.button159.FlatAppearance.BorderSize = 0;
             this.button159.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button159.Location = new System.Drawing.Point(280, 180);
@@ -2624,6 +2782,7 @@
             // button160
             // 
             this.button160.BackColor = System.Drawing.Color.PeachPuff;
+            this.button160.Enabled = false;
             this.button160.FlatAppearance.BorderSize = 0;
             this.button160.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button160.Location = new System.Drawing.Point(300, 180);
@@ -2637,6 +2796,7 @@
             // button161
             // 
             this.button161.BackColor = System.Drawing.Color.PeachPuff;
+            this.button161.Enabled = false;
             this.button161.FlatAppearance.BorderSize = 0;
             this.button161.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button161.Location = new System.Drawing.Point(0, 200);
@@ -2650,6 +2810,7 @@
             // button162
             // 
             this.button162.BackColor = System.Drawing.Color.PeachPuff;
+            this.button162.Enabled = false;
             this.button162.FlatAppearance.BorderSize = 0;
             this.button162.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button162.Location = new System.Drawing.Point(20, 200);
@@ -2663,6 +2824,7 @@
             // button163
             // 
             this.button163.BackColor = System.Drawing.Color.PeachPuff;
+            this.button163.Enabled = false;
             this.button163.FlatAppearance.BorderSize = 0;
             this.button163.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button163.Location = new System.Drawing.Point(40, 200);
@@ -2676,6 +2838,7 @@
             // button164
             // 
             this.button164.BackColor = System.Drawing.Color.PeachPuff;
+            this.button164.Enabled = false;
             this.button164.FlatAppearance.BorderSize = 0;
             this.button164.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button164.Location = new System.Drawing.Point(60, 200);
@@ -2689,6 +2852,7 @@
             // button165
             // 
             this.button165.BackColor = System.Drawing.Color.PeachPuff;
+            this.button165.Enabled = false;
             this.button165.FlatAppearance.BorderSize = 0;
             this.button165.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button165.Location = new System.Drawing.Point(80, 200);
@@ -2702,6 +2866,7 @@
             // button166
             // 
             this.button166.BackColor = System.Drawing.Color.PeachPuff;
+            this.button166.Enabled = false;
             this.button166.FlatAppearance.BorderSize = 0;
             this.button166.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button166.Location = new System.Drawing.Point(100, 200);
@@ -2715,6 +2880,7 @@
             // button167
             // 
             this.button167.BackColor = System.Drawing.Color.PeachPuff;
+            this.button167.Enabled = false;
             this.button167.FlatAppearance.BorderSize = 0;
             this.button167.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button167.Location = new System.Drawing.Point(120, 200);
@@ -2728,6 +2894,7 @@
             // button168
             // 
             this.button168.BackColor = System.Drawing.Color.PeachPuff;
+            this.button168.Enabled = false;
             this.button168.FlatAppearance.BorderSize = 0;
             this.button168.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button168.Location = new System.Drawing.Point(140, 200);
@@ -2741,6 +2908,7 @@
             // button169
             // 
             this.button169.BackColor = System.Drawing.Color.PeachPuff;
+            this.button169.Enabled = false;
             this.button169.FlatAppearance.BorderSize = 0;
             this.button169.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button169.Location = new System.Drawing.Point(160, 200);
@@ -2754,6 +2922,7 @@
             // button170
             // 
             this.button170.BackColor = System.Drawing.Color.PeachPuff;
+            this.button170.Enabled = false;
             this.button170.FlatAppearance.BorderSize = 0;
             this.button170.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button170.Location = new System.Drawing.Point(180, 200);
@@ -2767,6 +2936,7 @@
             // button171
             // 
             this.button171.BackColor = System.Drawing.Color.PeachPuff;
+            this.button171.Enabled = false;
             this.button171.FlatAppearance.BorderSize = 0;
             this.button171.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button171.Location = new System.Drawing.Point(200, 200);
@@ -2780,6 +2950,7 @@
             // button172
             // 
             this.button172.BackColor = System.Drawing.Color.PeachPuff;
+            this.button172.Enabled = false;
             this.button172.FlatAppearance.BorderSize = 0;
             this.button172.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button172.Location = new System.Drawing.Point(220, 200);
@@ -2793,6 +2964,7 @@
             // button173
             // 
             this.button173.BackColor = System.Drawing.Color.PeachPuff;
+            this.button173.Enabled = false;
             this.button173.FlatAppearance.BorderSize = 0;
             this.button173.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button173.Location = new System.Drawing.Point(240, 200);
@@ -2806,6 +2978,7 @@
             // button174
             // 
             this.button174.BackColor = System.Drawing.Color.PeachPuff;
+            this.button174.Enabled = false;
             this.button174.FlatAppearance.BorderSize = 0;
             this.button174.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button174.Location = new System.Drawing.Point(260, 200);
@@ -2819,6 +2992,7 @@
             // button175
             // 
             this.button175.BackColor = System.Drawing.Color.PeachPuff;
+            this.button175.Enabled = false;
             this.button175.FlatAppearance.BorderSize = 0;
             this.button175.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button175.Location = new System.Drawing.Point(280, 200);
@@ -2832,6 +3006,7 @@
             // button176
             // 
             this.button176.BackColor = System.Drawing.Color.PeachPuff;
+            this.button176.Enabled = false;
             this.button176.FlatAppearance.BorderSize = 0;
             this.button176.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button176.Location = new System.Drawing.Point(300, 200);
@@ -2845,6 +3020,7 @@
             // button177
             // 
             this.button177.BackColor = System.Drawing.Color.PeachPuff;
+            this.button177.Enabled = false;
             this.button177.FlatAppearance.BorderSize = 0;
             this.button177.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button177.Location = new System.Drawing.Point(0, 220);
@@ -2858,6 +3034,7 @@
             // button178
             // 
             this.button178.BackColor = System.Drawing.Color.PeachPuff;
+            this.button178.Enabled = false;
             this.button178.FlatAppearance.BorderSize = 0;
             this.button178.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button178.Location = new System.Drawing.Point(20, 220);
@@ -2871,6 +3048,7 @@
             // button179
             // 
             this.button179.BackColor = System.Drawing.Color.PeachPuff;
+            this.button179.Enabled = false;
             this.button179.FlatAppearance.BorderSize = 0;
             this.button179.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button179.Location = new System.Drawing.Point(40, 220);
@@ -2884,6 +3062,7 @@
             // button180
             // 
             this.button180.BackColor = System.Drawing.Color.PeachPuff;
+            this.button180.Enabled = false;
             this.button180.FlatAppearance.BorderSize = 0;
             this.button180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button180.Location = new System.Drawing.Point(60, 220);
@@ -2897,6 +3076,7 @@
             // button181
             // 
             this.button181.BackColor = System.Drawing.Color.PeachPuff;
+            this.button181.Enabled = false;
             this.button181.FlatAppearance.BorderSize = 0;
             this.button181.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button181.Location = new System.Drawing.Point(80, 220);
@@ -2910,6 +3090,7 @@
             // button182
             // 
             this.button182.BackColor = System.Drawing.Color.PeachPuff;
+            this.button182.Enabled = false;
             this.button182.FlatAppearance.BorderSize = 0;
             this.button182.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button182.Location = new System.Drawing.Point(100, 220);
@@ -2923,6 +3104,7 @@
             // button183
             // 
             this.button183.BackColor = System.Drawing.Color.PeachPuff;
+            this.button183.Enabled = false;
             this.button183.FlatAppearance.BorderSize = 0;
             this.button183.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button183.Location = new System.Drawing.Point(120, 220);
@@ -2936,6 +3118,7 @@
             // button184
             // 
             this.button184.BackColor = System.Drawing.Color.PeachPuff;
+            this.button184.Enabled = false;
             this.button184.FlatAppearance.BorderSize = 0;
             this.button184.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button184.Location = new System.Drawing.Point(140, 220);
@@ -2949,6 +3132,7 @@
             // button185
             // 
             this.button185.BackColor = System.Drawing.Color.PeachPuff;
+            this.button185.Enabled = false;
             this.button185.FlatAppearance.BorderSize = 0;
             this.button185.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button185.Location = new System.Drawing.Point(160, 220);
@@ -2962,6 +3146,7 @@
             // button186
             // 
             this.button186.BackColor = System.Drawing.Color.PeachPuff;
+            this.button186.Enabled = false;
             this.button186.FlatAppearance.BorderSize = 0;
             this.button186.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button186.Location = new System.Drawing.Point(180, 220);
@@ -2975,6 +3160,7 @@
             // button187
             // 
             this.button187.BackColor = System.Drawing.Color.PeachPuff;
+            this.button187.Enabled = false;
             this.button187.FlatAppearance.BorderSize = 0;
             this.button187.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button187.Location = new System.Drawing.Point(200, 220);
@@ -2988,6 +3174,7 @@
             // button188
             // 
             this.button188.BackColor = System.Drawing.Color.PeachPuff;
+            this.button188.Enabled = false;
             this.button188.FlatAppearance.BorderSize = 0;
             this.button188.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button188.Location = new System.Drawing.Point(220, 220);
@@ -3001,6 +3188,7 @@
             // button189
             // 
             this.button189.BackColor = System.Drawing.Color.PeachPuff;
+            this.button189.Enabled = false;
             this.button189.FlatAppearance.BorderSize = 0;
             this.button189.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button189.Location = new System.Drawing.Point(240, 220);
@@ -3014,6 +3202,7 @@
             // button190
             // 
             this.button190.BackColor = System.Drawing.Color.PeachPuff;
+            this.button190.Enabled = false;
             this.button190.FlatAppearance.BorderSize = 0;
             this.button190.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button190.Location = new System.Drawing.Point(260, 220);
@@ -3027,6 +3216,7 @@
             // button191
             // 
             this.button191.BackColor = System.Drawing.Color.PeachPuff;
+            this.button191.Enabled = false;
             this.button191.FlatAppearance.BorderSize = 0;
             this.button191.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button191.Location = new System.Drawing.Point(280, 220);
@@ -3040,6 +3230,7 @@
             // button192
             // 
             this.button192.BackColor = System.Drawing.Color.PeachPuff;
+            this.button192.Enabled = false;
             this.button192.FlatAppearance.BorderSize = 0;
             this.button192.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button192.Location = new System.Drawing.Point(300, 220);
@@ -3053,6 +3244,7 @@
             // button193
             // 
             this.button193.BackColor = System.Drawing.Color.PeachPuff;
+            this.button193.Enabled = false;
             this.button193.FlatAppearance.BorderSize = 0;
             this.button193.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button193.Location = new System.Drawing.Point(0, 240);
@@ -3066,6 +3258,7 @@
             // button194
             // 
             this.button194.BackColor = System.Drawing.Color.PeachPuff;
+            this.button194.Enabled = false;
             this.button194.FlatAppearance.BorderSize = 0;
             this.button194.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button194.Location = new System.Drawing.Point(20, 240);
@@ -3079,6 +3272,7 @@
             // button195
             // 
             this.button195.BackColor = System.Drawing.Color.PeachPuff;
+            this.button195.Enabled = false;
             this.button195.FlatAppearance.BorderSize = 0;
             this.button195.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button195.Location = new System.Drawing.Point(40, 240);
@@ -3092,6 +3286,7 @@
             // button196
             // 
             this.button196.BackColor = System.Drawing.Color.PeachPuff;
+            this.button196.Enabled = false;
             this.button196.FlatAppearance.BorderSize = 0;
             this.button196.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button196.Location = new System.Drawing.Point(60, 240);
@@ -3105,6 +3300,7 @@
             // button197
             // 
             this.button197.BackColor = System.Drawing.Color.PeachPuff;
+            this.button197.Enabled = false;
             this.button197.FlatAppearance.BorderSize = 0;
             this.button197.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button197.Location = new System.Drawing.Point(80, 240);
@@ -3118,6 +3314,7 @@
             // button198
             // 
             this.button198.BackColor = System.Drawing.Color.PeachPuff;
+            this.button198.Enabled = false;
             this.button198.FlatAppearance.BorderSize = 0;
             this.button198.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button198.Location = new System.Drawing.Point(100, 240);
@@ -3131,6 +3328,7 @@
             // button199
             // 
             this.button199.BackColor = System.Drawing.Color.PeachPuff;
+            this.button199.Enabled = false;
             this.button199.FlatAppearance.BorderSize = 0;
             this.button199.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button199.Location = new System.Drawing.Point(120, 240);
@@ -3144,6 +3342,7 @@
             // button200
             // 
             this.button200.BackColor = System.Drawing.Color.PeachPuff;
+            this.button200.Enabled = false;
             this.button200.FlatAppearance.BorderSize = 0;
             this.button200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button200.Location = new System.Drawing.Point(140, 240);
@@ -3157,6 +3356,7 @@
             // button201
             // 
             this.button201.BackColor = System.Drawing.Color.PeachPuff;
+            this.button201.Enabled = false;
             this.button201.FlatAppearance.BorderSize = 0;
             this.button201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button201.Location = new System.Drawing.Point(160, 240);
@@ -3170,6 +3370,7 @@
             // button202
             // 
             this.button202.BackColor = System.Drawing.Color.PeachPuff;
+            this.button202.Enabled = false;
             this.button202.FlatAppearance.BorderSize = 0;
             this.button202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button202.Location = new System.Drawing.Point(180, 240);
@@ -3183,6 +3384,7 @@
             // button203
             // 
             this.button203.BackColor = System.Drawing.Color.PeachPuff;
+            this.button203.Enabled = false;
             this.button203.FlatAppearance.BorderSize = 0;
             this.button203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button203.Location = new System.Drawing.Point(200, 240);
@@ -3196,6 +3398,7 @@
             // button204
             // 
             this.button204.BackColor = System.Drawing.Color.PeachPuff;
+            this.button204.Enabled = false;
             this.button204.FlatAppearance.BorderSize = 0;
             this.button204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button204.Location = new System.Drawing.Point(220, 240);
@@ -3209,6 +3412,7 @@
             // button205
             // 
             this.button205.BackColor = System.Drawing.Color.PeachPuff;
+            this.button205.Enabled = false;
             this.button205.FlatAppearance.BorderSize = 0;
             this.button205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button205.Location = new System.Drawing.Point(240, 240);
@@ -3222,6 +3426,7 @@
             // button206
             // 
             this.button206.BackColor = System.Drawing.Color.PeachPuff;
+            this.button206.Enabled = false;
             this.button206.FlatAppearance.BorderSize = 0;
             this.button206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button206.Location = new System.Drawing.Point(260, 240);
@@ -3235,6 +3440,7 @@
             // button207
             // 
             this.button207.BackColor = System.Drawing.Color.PeachPuff;
+            this.button207.Enabled = false;
             this.button207.FlatAppearance.BorderSize = 0;
             this.button207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button207.Location = new System.Drawing.Point(280, 240);
@@ -3248,6 +3454,7 @@
             // button208
             // 
             this.button208.BackColor = System.Drawing.Color.PeachPuff;
+            this.button208.Enabled = false;
             this.button208.FlatAppearance.BorderSize = 0;
             this.button208.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button208.Location = new System.Drawing.Point(300, 240);
@@ -3261,6 +3468,7 @@
             // button209
             // 
             this.button209.BackColor = System.Drawing.Color.PeachPuff;
+            this.button209.Enabled = false;
             this.button209.FlatAppearance.BorderSize = 0;
             this.button209.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button209.Location = new System.Drawing.Point(0, 260);
@@ -3274,6 +3482,7 @@
             // button210
             // 
             this.button210.BackColor = System.Drawing.Color.PeachPuff;
+            this.button210.Enabled = false;
             this.button210.FlatAppearance.BorderSize = 0;
             this.button210.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button210.Location = new System.Drawing.Point(20, 260);
@@ -3287,6 +3496,7 @@
             // button211
             // 
             this.button211.BackColor = System.Drawing.Color.PeachPuff;
+            this.button211.Enabled = false;
             this.button211.FlatAppearance.BorderSize = 0;
             this.button211.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button211.Location = new System.Drawing.Point(40, 260);
@@ -3300,6 +3510,7 @@
             // button212
             // 
             this.button212.BackColor = System.Drawing.Color.PeachPuff;
+            this.button212.Enabled = false;
             this.button212.FlatAppearance.BorderSize = 0;
             this.button212.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button212.Location = new System.Drawing.Point(60, 260);
@@ -3313,6 +3524,7 @@
             // button213
             // 
             this.button213.BackColor = System.Drawing.Color.PeachPuff;
+            this.button213.Enabled = false;
             this.button213.FlatAppearance.BorderSize = 0;
             this.button213.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button213.Location = new System.Drawing.Point(80, 260);
@@ -3326,6 +3538,7 @@
             // button214
             // 
             this.button214.BackColor = System.Drawing.Color.PeachPuff;
+            this.button214.Enabled = false;
             this.button214.FlatAppearance.BorderSize = 0;
             this.button214.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button214.Location = new System.Drawing.Point(100, 260);
@@ -3339,6 +3552,7 @@
             // button215
             // 
             this.button215.BackColor = System.Drawing.Color.PeachPuff;
+            this.button215.Enabled = false;
             this.button215.FlatAppearance.BorderSize = 0;
             this.button215.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button215.Location = new System.Drawing.Point(120, 260);
@@ -3352,6 +3566,7 @@
             // button216
             // 
             this.button216.BackColor = System.Drawing.Color.PeachPuff;
+            this.button216.Enabled = false;
             this.button216.FlatAppearance.BorderSize = 0;
             this.button216.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button216.Location = new System.Drawing.Point(140, 260);
@@ -3365,6 +3580,7 @@
             // button217
             // 
             this.button217.BackColor = System.Drawing.Color.PeachPuff;
+            this.button217.Enabled = false;
             this.button217.FlatAppearance.BorderSize = 0;
             this.button217.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button217.Location = new System.Drawing.Point(160, 260);
@@ -3378,6 +3594,7 @@
             // button218
             // 
             this.button218.BackColor = System.Drawing.Color.PeachPuff;
+            this.button218.Enabled = false;
             this.button218.FlatAppearance.BorderSize = 0;
             this.button218.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button218.Location = new System.Drawing.Point(180, 260);
@@ -3391,6 +3608,7 @@
             // button219
             // 
             this.button219.BackColor = System.Drawing.Color.PeachPuff;
+            this.button219.Enabled = false;
             this.button219.FlatAppearance.BorderSize = 0;
             this.button219.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button219.Location = new System.Drawing.Point(200, 260);
@@ -3404,6 +3622,7 @@
             // button220
             // 
             this.button220.BackColor = System.Drawing.Color.PeachPuff;
+            this.button220.Enabled = false;
             this.button220.FlatAppearance.BorderSize = 0;
             this.button220.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button220.Location = new System.Drawing.Point(220, 260);
@@ -3417,6 +3636,7 @@
             // button221
             // 
             this.button221.BackColor = System.Drawing.Color.PeachPuff;
+            this.button221.Enabled = false;
             this.button221.FlatAppearance.BorderSize = 0;
             this.button221.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button221.Location = new System.Drawing.Point(240, 260);
@@ -3430,6 +3650,7 @@
             // button222
             // 
             this.button222.BackColor = System.Drawing.Color.PeachPuff;
+            this.button222.Enabled = false;
             this.button222.FlatAppearance.BorderSize = 0;
             this.button222.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button222.Location = new System.Drawing.Point(260, 260);
@@ -3443,6 +3664,7 @@
             // button223
             // 
             this.button223.BackColor = System.Drawing.Color.PeachPuff;
+            this.button223.Enabled = false;
             this.button223.FlatAppearance.BorderSize = 0;
             this.button223.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button223.Location = new System.Drawing.Point(280, 260);
@@ -3456,6 +3678,7 @@
             // button224
             // 
             this.button224.BackColor = System.Drawing.Color.PeachPuff;
+            this.button224.Enabled = false;
             this.button224.FlatAppearance.BorderSize = 0;
             this.button224.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button224.Location = new System.Drawing.Point(300, 260);
@@ -3469,6 +3692,7 @@
             // button225
             // 
             this.button225.BackColor = System.Drawing.Color.PeachPuff;
+            this.button225.Enabled = false;
             this.button225.FlatAppearance.BorderSize = 0;
             this.button225.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button225.Location = new System.Drawing.Point(0, 280);
@@ -3482,6 +3706,7 @@
             // button226
             // 
             this.button226.BackColor = System.Drawing.Color.PeachPuff;
+            this.button226.Enabled = false;
             this.button226.FlatAppearance.BorderSize = 0;
             this.button226.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button226.Location = new System.Drawing.Point(20, 280);
@@ -3495,6 +3720,7 @@
             // button227
             // 
             this.button227.BackColor = System.Drawing.Color.PeachPuff;
+            this.button227.Enabled = false;
             this.button227.FlatAppearance.BorderSize = 0;
             this.button227.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button227.Location = new System.Drawing.Point(40, 280);
@@ -3508,6 +3734,7 @@
             // button228
             // 
             this.button228.BackColor = System.Drawing.Color.PeachPuff;
+            this.button228.Enabled = false;
             this.button228.FlatAppearance.BorderSize = 0;
             this.button228.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button228.Location = new System.Drawing.Point(60, 280);
@@ -3521,6 +3748,7 @@
             // button229
             // 
             this.button229.BackColor = System.Drawing.Color.PeachPuff;
+            this.button229.Enabled = false;
             this.button229.FlatAppearance.BorderSize = 0;
             this.button229.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button229.Location = new System.Drawing.Point(80, 280);
@@ -3534,6 +3762,7 @@
             // button230
             // 
             this.button230.BackColor = System.Drawing.Color.PeachPuff;
+            this.button230.Enabled = false;
             this.button230.FlatAppearance.BorderSize = 0;
             this.button230.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button230.Location = new System.Drawing.Point(100, 280);
@@ -3547,6 +3776,7 @@
             // button231
             // 
             this.button231.BackColor = System.Drawing.Color.PeachPuff;
+            this.button231.Enabled = false;
             this.button231.FlatAppearance.BorderSize = 0;
             this.button231.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button231.Location = new System.Drawing.Point(120, 280);
@@ -3560,6 +3790,7 @@
             // button232
             // 
             this.button232.BackColor = System.Drawing.Color.PeachPuff;
+            this.button232.Enabled = false;
             this.button232.FlatAppearance.BorderSize = 0;
             this.button232.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button232.Location = new System.Drawing.Point(140, 280);
@@ -3573,6 +3804,7 @@
             // button233
             // 
             this.button233.BackColor = System.Drawing.Color.PeachPuff;
+            this.button233.Enabled = false;
             this.button233.FlatAppearance.BorderSize = 0;
             this.button233.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button233.Location = new System.Drawing.Point(160, 280);
@@ -3586,6 +3818,7 @@
             // button234
             // 
             this.button234.BackColor = System.Drawing.Color.PeachPuff;
+            this.button234.Enabled = false;
             this.button234.FlatAppearance.BorderSize = 0;
             this.button234.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button234.Location = new System.Drawing.Point(180, 280);
@@ -3599,6 +3832,7 @@
             // button235
             // 
             this.button235.BackColor = System.Drawing.Color.PeachPuff;
+            this.button235.Enabled = false;
             this.button235.FlatAppearance.BorderSize = 0;
             this.button235.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button235.Location = new System.Drawing.Point(200, 280);
@@ -3612,6 +3846,7 @@
             // button236
             // 
             this.button236.BackColor = System.Drawing.Color.PeachPuff;
+            this.button236.Enabled = false;
             this.button236.FlatAppearance.BorderSize = 0;
             this.button236.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button236.Location = new System.Drawing.Point(220, 280);
@@ -3625,6 +3860,7 @@
             // button237
             // 
             this.button237.BackColor = System.Drawing.Color.PeachPuff;
+            this.button237.Enabled = false;
             this.button237.FlatAppearance.BorderSize = 0;
             this.button237.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button237.Location = new System.Drawing.Point(240, 280);
@@ -3638,6 +3874,7 @@
             // button238
             // 
             this.button238.BackColor = System.Drawing.Color.PeachPuff;
+            this.button238.Enabled = false;
             this.button238.FlatAppearance.BorderSize = 0;
             this.button238.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button238.Location = new System.Drawing.Point(260, 280);
@@ -3651,6 +3888,7 @@
             // button239
             // 
             this.button239.BackColor = System.Drawing.Color.PeachPuff;
+            this.button239.Enabled = false;
             this.button239.FlatAppearance.BorderSize = 0;
             this.button239.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button239.Location = new System.Drawing.Point(280, 280);
@@ -3664,6 +3902,7 @@
             // button240
             // 
             this.button240.BackColor = System.Drawing.Color.PeachPuff;
+            this.button240.Enabled = false;
             this.button240.FlatAppearance.BorderSize = 0;
             this.button240.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button240.Location = new System.Drawing.Point(300, 280);
@@ -3677,6 +3916,7 @@
             // button241
             // 
             this.button241.BackColor = System.Drawing.Color.PeachPuff;
+            this.button241.Enabled = false;
             this.button241.FlatAppearance.BorderSize = 0;
             this.button241.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button241.Location = new System.Drawing.Point(0, 300);
@@ -3690,6 +3930,7 @@
             // button242
             // 
             this.button242.BackColor = System.Drawing.Color.PeachPuff;
+            this.button242.Enabled = false;
             this.button242.FlatAppearance.BorderSize = 0;
             this.button242.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button242.Location = new System.Drawing.Point(20, 300);
@@ -3703,6 +3944,7 @@
             // button243
             // 
             this.button243.BackColor = System.Drawing.Color.PeachPuff;
+            this.button243.Enabled = false;
             this.button243.FlatAppearance.BorderSize = 0;
             this.button243.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button243.Location = new System.Drawing.Point(40, 300);
@@ -3716,6 +3958,7 @@
             // button244
             // 
             this.button244.BackColor = System.Drawing.Color.PeachPuff;
+            this.button244.Enabled = false;
             this.button244.FlatAppearance.BorderSize = 0;
             this.button244.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button244.Location = new System.Drawing.Point(60, 300);
@@ -3729,6 +3972,7 @@
             // button245
             // 
             this.button245.BackColor = System.Drawing.Color.PeachPuff;
+            this.button245.Enabled = false;
             this.button245.FlatAppearance.BorderSize = 0;
             this.button245.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button245.Location = new System.Drawing.Point(80, 300);
@@ -3742,6 +3986,7 @@
             // button246
             // 
             this.button246.BackColor = System.Drawing.Color.PeachPuff;
+            this.button246.Enabled = false;
             this.button246.FlatAppearance.BorderSize = 0;
             this.button246.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button246.Location = new System.Drawing.Point(100, 300);
@@ -3755,6 +4000,7 @@
             // button247
             // 
             this.button247.BackColor = System.Drawing.Color.PeachPuff;
+            this.button247.Enabled = false;
             this.button247.FlatAppearance.BorderSize = 0;
             this.button247.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button247.Location = new System.Drawing.Point(120, 300);
@@ -3768,6 +4014,7 @@
             // button248
             // 
             this.button248.BackColor = System.Drawing.Color.PeachPuff;
+            this.button248.Enabled = false;
             this.button248.FlatAppearance.BorderSize = 0;
             this.button248.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button248.Location = new System.Drawing.Point(140, 300);
@@ -3781,6 +4028,7 @@
             // button249
             // 
             this.button249.BackColor = System.Drawing.Color.PeachPuff;
+            this.button249.Enabled = false;
             this.button249.FlatAppearance.BorderSize = 0;
             this.button249.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button249.Location = new System.Drawing.Point(160, 300);
@@ -3794,6 +4042,7 @@
             // button250
             // 
             this.button250.BackColor = System.Drawing.Color.PeachPuff;
+            this.button250.Enabled = false;
             this.button250.FlatAppearance.BorderSize = 0;
             this.button250.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button250.Location = new System.Drawing.Point(180, 300);
@@ -3807,6 +4056,7 @@
             // button251
             // 
             this.button251.BackColor = System.Drawing.Color.PeachPuff;
+            this.button251.Enabled = false;
             this.button251.FlatAppearance.BorderSize = 0;
             this.button251.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button251.Location = new System.Drawing.Point(200, 300);
@@ -3820,6 +4070,7 @@
             // button252
             // 
             this.button252.BackColor = System.Drawing.Color.PeachPuff;
+            this.button252.Enabled = false;
             this.button252.FlatAppearance.BorderSize = 0;
             this.button252.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button252.Location = new System.Drawing.Point(220, 300);
@@ -3833,6 +4084,7 @@
             // button253
             // 
             this.button253.BackColor = System.Drawing.Color.PeachPuff;
+            this.button253.Enabled = false;
             this.button253.FlatAppearance.BorderSize = 0;
             this.button253.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button253.Location = new System.Drawing.Point(240, 300);
@@ -3846,6 +4098,7 @@
             // button254
             // 
             this.button254.BackColor = System.Drawing.Color.PeachPuff;
+            this.button254.Enabled = false;
             this.button254.FlatAppearance.BorderSize = 0;
             this.button254.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button254.Location = new System.Drawing.Point(260, 300);
@@ -3859,6 +4112,7 @@
             // button255
             // 
             this.button255.BackColor = System.Drawing.Color.PeachPuff;
+            this.button255.Enabled = false;
             this.button255.FlatAppearance.BorderSize = 0;
             this.button255.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button255.Location = new System.Drawing.Point(280, 300);
@@ -3872,6 +4126,7 @@
             // button256
             // 
             this.button256.BackColor = System.Drawing.Color.PeachPuff;
+            this.button256.Enabled = false;
             this.button256.FlatAppearance.BorderSize = 0;
             this.button256.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button256.Location = new System.Drawing.Point(300, 300);
@@ -3946,7 +4201,7 @@
             this.GameOverPanel.Controls.Add(this.RestartButton);
             this.GameOverPanel.Controls.Add(this.GameOverLabel);
             this.GameOverPanel.Controls.Add(this.TryAgainLabel);
-            this.GameOverPanel.Location = new System.Drawing.Point(95, 95);
+            this.GameOverPanel.Location = new System.Drawing.Point(98, 62);
             this.GameOverPanel.Name = "GameOverPanel";
             this.GameOverPanel.Size = new System.Drawing.Size(150, 100);
             this.GameOverPanel.TabIndex = 3;

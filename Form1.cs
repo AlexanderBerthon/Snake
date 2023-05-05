@@ -1,16 +1,18 @@
-namespace Snake {
+using System.Text.RegularExpressions;
+using static System.Formats.Asn1.AsnWriter;
 
-    //bugs
-    //when you start a new game, controls don't work until you select the game board
-    //
+namespace Snake {
     //improvements
     //highscore sheet
+    //47! 
+
     public partial class Form1 : Form {
         //global variables :(
         int currentIndex;
         int lastIndex;
         int trajectory;
         List<int> snake;
+        Highscore[] highScores;
         Random random = new Random();
         Button[] btnArray;
 
@@ -42,6 +44,8 @@ namespace Snake {
             trajectory = +16;
             btnArray = new Button[256];
             flowLayoutPanel1.Controls.CopyTo(btnArray, 0);
+
+            highScores = new Highscore[5];
 
             spawn();
         }
@@ -159,10 +163,119 @@ namespace Snake {
             currentIndex = 18;
             lastIndex = 200;
             spawn();
-            button1.Focus(); //??!
+            button1.Focus();
 
             timer.Start();
 
         }
+
+        private void displayGameOver() {
+            Boolean newHighScore = false;
+
+            //check for new highscore
+            for (int i = 0; i < 5; i++) {
+                if (snake.Count - 1 >= highScores[i].getScore()) {
+                    newHighScore = true;
+                }
+            }
+
+            if (newHighScore) {
+                //display new highscore UI
+                newHighScorePanel.Visible = true;
+            }
+            else {
+                //populate highscore board
+                highscoreName1.Text = highScores[0].getName();
+                highscoreName2.Text = highScores[1].getName();
+                highscoreName3.Text = highScores[2].getName();
+                highscoreName4.Text = highScores[3].getName();
+                highscoreName5.Text = highScores[4].getName();
+                highscore1.Text = highScores[0].getScore().ToString();
+                highscore2.Text = highScores[1].getScore().ToString();
+                highscore3.Text = highScores[2].getScore().ToString();
+                highscore4.Text = highScores[3].getScore().ToString();
+                highscore5.Text = highScores[4].getScore().ToString();
+
+                //display gameover UI
+                highscorePanel.Visible = true;
+                playAgainLabel.Visible = true;
+                continueButton.Visible = true;
+                exitButton.Visible = true;
+
+                //hide poweup UI
+                powerUpProgress.Visible = false;
+                powerUpProgress.Value = 0;
+            }
+        }
+
+        private void confirmUserInputButton_Click(object sender, EventArgs e) {
+            String userInput = "";
+            Regex regex = new Regex("[0-9]");
+            if (newHighScoreTextbox.Text != null) {
+                userInput = newHighScoreTextbox.Text;
+
+                if (regex.IsMatch(userInput)) {
+                    userInputErrorLabel.Text = "Error: no numbers allowed";
+                    userInputErrorLabel.Visible = true;
+                }
+                else if (userInput.Contains(" ")) {
+                    userInputErrorLabel.Text = "Error: no spaces allowed";
+                    userInputErrorLabel.Visible = true;
+                }
+                else if (userInput.Length < 1) {
+                    userInputErrorLabel.Text = "Error: please enter a name";
+                    userInputErrorLabel.Visible = true;
+                }
+                else {
+                    //add new highscore to list
+                    highScores[4] = new Highscore(newHighScoreTextbox.Text, score);
+
+                    Array.Sort(highScores, Highscore.SortScoreAcending());
+
+                    //close new highscore menu
+                    newHighScorePanel.Visible = false;
+
+                    //populate highscore board
+                    highscoreName1.Text = highScores[0].getName();
+                    highscoreName2.Text = highScores[1].getName();
+                    highscoreName3.Text = highScores[2].getName();
+                    highscoreName4.Text = highScores[3].getName();
+                    highscoreName5.Text = highScores[4].getName();
+                    highscore1.Text = highScores[0].getScore().ToString();
+                    highscore2.Text = highScores[1].getScore().ToString();
+                    highscore3.Text = highScores[2].getScore().ToString();
+                    highscore4.Text = highScores[3].getScore().ToString();
+                    highscore5.Text = highScores[4].getScore().ToString();
+
+                    //display highscore board
+                    highscorePanel.Visible = true;
+                    continueButton.Visible = true;
+                    exitButton.Visible = true;
+                    playAgainLabel.Visible = true;
+
+                    //hide powerUp UI
+                    powerUpProgress.Visible = false;
+                    powerUpProgress.Value = 0;
+
+                    String[] temp = new string[5];
+
+                    //write to file
+                    for (int i = 0; i < 5; i++) {
+                        temp[i] = highScores[i].getName() + " " + highScores[i].getScore().ToString();
+                    }
+
+                    File.WriteAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Brickbreaker_Highscores.txt", temp);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Helper function that clears error message upon user interaction on text box
+        /// Prevents a permanent error message showing , makes it more clear that format is incorrect on multiple user attempts at adding a new highscore
+        /// </summary>
+        private void NewHighScoreTextBox_TextChanged(object sender, EventArgs e) {
+            userInputErrorLabel.Visible = false;
+        }
+
     }
 }

@@ -2,9 +2,6 @@ using System.Text.RegularExpressions;
 using static System.Formats.Asn1.AsnWriter;
 
 namespace Snake {
-    //improvements
-    //highscore sheet
-    //47! 
 
     public partial class Form1 : Form {
         //global variables :(
@@ -26,7 +23,7 @@ namespace Snake {
             }
             else {
                 ScoreLabel.Text = "Final Score: " + (snake.Count-1).ToString();
-                GameOverPanel.Visible = true;
+                displayGameOver();
             }
         }
 
@@ -45,16 +42,31 @@ namespace Snake {
             btnArray = new Button[256];
             flowLayoutPanel1.Controls.CopyTo(btnArray, 0);
 
+            //Initialize highscore variables
+            string[] inputData;
             highScores = new Highscore[5];
+
+            //create the highscore file if it doesn't exist
+            if (!File.Exists("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt")) {
+                string[] temp = { "Jeff 23", "Kenny 26", "Taylor 19", "Alex 47", "Martin 14" };
+                File.WriteAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt", temp); //creates files and populates with dummy data
+            }
+
+            inputData = System.IO.File.ReadAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt");
+
+            if (inputData.Length > 0) {
+                for (int i = 0; i < inputData.Length; i++) {
+                    string[] split = new string[2];
+                    split = inputData[i].Split(" ");
+                    highScores[i] = new Highscore(split[0], int.Parse(split[1]));
+                }
+            }
 
             spawn();
         }
 
-        /// <summary>
-        /// This function moves the player snake based on user input gathered by the movement_keypressed action listener
-        /// Also checks for collisions with the border / snake and ends the game on collision 
-        /// </summary>
-        /// <returns></returns>
+        ///Moves snake based on user input gathered by the movement_keypressed action listener
+        ///Also checks for collisions with the border / snake and ends the game on collision 
         private Boolean move() {
             Boolean runGame = true;
             snake.Add(currentIndex);
@@ -102,16 +114,12 @@ namespace Snake {
             return runGame;
         }
 
-        /// <summary>
-        /// This function spawns the orbs for the player to collect.
+        /// spawns the orbs for the player to collect.
         /// 
         /// the function is called after the previous orb has been collected. 
-        /// 
-        /// the player recieves one point for each orb collected.
-        /// 
+        ///
         /// the location of the orb is random, however, if the orb would have spawned on top of the player
         /// the location will be re-randomized until it does not. 
-        /// </summary>
         private void spawn() {
             int location = 0;
             Boolean valid = false;
@@ -127,12 +135,8 @@ namespace Snake {
             btnArray[location].BackColor = Color.Firebrick;
         }
 
-        /// <summary>
-        /// This function sets the direction of the snake at the given "game tick"
-        /// which is then fed into the move function to move the snake in the right direction.
-        /// </summary>
-        /// <param name="sender"></param> 
-        /// <param name="e"></param>
+        /// Sets the direction of the snake at the given "game tick"
+        /// fed into the move function to move the snake in the correct direction.
         private void movement_KeyPress(object sender, KeyPressEventArgs e) {
             if (e.KeyChar == 'w') {
                 trajectory = -16;
@@ -153,7 +157,12 @@ namespace Snake {
         }
 
         private void RestartButton_Click(object sender, EventArgs e) {
-            GameOverPanel.Visible = false;
+            
+            highscorePanel.Visible = false;
+            retryButton.Visible = false;
+            quitButton.Visible = false;
+            continueLabel.Visible = false;
+
             foreach (Button btn in btnArray) {
                 btn.BackColor = Color.PeachPuff;
             }
@@ -166,7 +175,6 @@ namespace Snake {
             button1.Focus();
 
             timer.Start();
-
         }
 
         private void displayGameOver() {
@@ -181,7 +189,7 @@ namespace Snake {
 
             if (newHighScore) {
                 //display new highscore UI
-                newHighScorePanel.Visible = true;
+                newHighscorePanel.Visible = true;
             }
             else {
                 //populate highscore board
@@ -198,21 +206,18 @@ namespace Snake {
 
                 //display gameover UI
                 highscorePanel.Visible = true;
-                playAgainLabel.Visible = true;
-                continueButton.Visible = true;
-                exitButton.Visible = true;
-
-                //hide poweup UI
-                powerUpProgress.Visible = false;
-                powerUpProgress.Value = 0;
+                continueLabel.Visible = true;
+                retryButton.Visible = true;
+                quitButton.Visible = true;
             }
         }
 
+        //new highscore error checking
         private void confirmUserInputButton_Click(object sender, EventArgs e) {
             String userInput = "";
             Regex regex = new Regex("[0-9]");
-            if (newHighScoreTextbox.Text != null) {
-                userInput = newHighScoreTextbox.Text;
+            if (newHighscoreTextbox.Text != null) {
+                userInput = newHighscoreTextbox.Text;
 
                 if (regex.IsMatch(userInput)) {
                     userInputErrorLabel.Text = "Error: no numbers allowed";
@@ -228,12 +233,12 @@ namespace Snake {
                 }
                 else {
                     //add new highscore to list
-                    highScores[4] = new Highscore(newHighScoreTextbox.Text, score);
+                    highScores[4] = new Highscore(newHighscoreTextbox.Text, snake.Count()-1);
 
                     Array.Sort(highScores, Highscore.SortScoreAcending());
 
                     //close new highscore menu
-                    newHighScorePanel.Visible = false;
+                    newHighscorePanel.Visible = false;
 
                     //populate highscore board
                     highscoreName1.Text = highScores[0].getName();
@@ -249,13 +254,9 @@ namespace Snake {
 
                     //display highscore board
                     highscorePanel.Visible = true;
-                    continueButton.Visible = true;
-                    exitButton.Visible = true;
-                    playAgainLabel.Visible = true;
-
-                    //hide powerUp UI
-                    powerUpProgress.Visible = false;
-                    powerUpProgress.Value = 0;
+                    retryButton.Visible = true;
+                    quitButton.Visible = true;
+                    continueLabel.Visible = true;
 
                     String[] temp = new string[5];
 
@@ -264,18 +265,15 @@ namespace Snake {
                         temp[i] = highScores[i].getName() + " " + highScores[i].getScore().ToString();
                     }
 
-                    File.WriteAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Brickbreaker_Highscores.txt", temp);
+                    File.WriteAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt", temp);
                 }
             }
         }
 
-        /// <summary>
         /// Helper function that clears error message upon user interaction on text box
         /// Prevents a permanent error message showing , makes it more clear that format is incorrect on multiple user attempts at adding a new highscore
-        /// </summary>
         private void NewHighScoreTextBox_TextChanged(object sender, EventArgs e) {
             userInputErrorLabel.Visible = false;
         }
-
     }
 }

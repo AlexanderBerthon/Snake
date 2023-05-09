@@ -48,7 +48,7 @@ namespace Snake {
 
             //create the highscore file if it doesn't exist
             if (!File.Exists("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt")) {
-                string[] temp = { "Jeff 23", "Kenny 26", "Taylor 19", "Alex 47", "Martin 14" };
+                string[] temp = { "Alex 47", "Kenny 26", "Jeff 23", "Taylor 19", "Martin 14" };
                 File.WriteAllLines("C:\\Users\\" + Environment.UserName + "\\Desktop\\Snake_Highscores.txt", temp); //creates files and populates with dummy data
             }
 

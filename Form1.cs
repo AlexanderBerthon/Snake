@@ -4,7 +4,6 @@ using static System.Formats.Asn1.AsnWriter;
 namespace Snake {
 
     public partial class Form1 : Form {
-        //global variables :(
         int currentIndex;
         int lastIndex;
         int trajectory;
@@ -30,7 +29,7 @@ namespace Snake {
         public Form1() {
             InitializeComponent();
 
-            timer.Interval = 100;
+            timer.Interval = 1000;
             timer.Start();
             timer.Tick += new EventHandler(TimerEventProcessor);
 
@@ -84,7 +83,7 @@ namespace Snake {
                 runGame = false;
             }
             //check bottom border
-            else if (currentIndex >= 239 && trajectory == +16) {
+            else if (currentIndex >= 240 && trajectory == +16) {
                 //Border Collision: game over
                 runGame = false;
             }
@@ -119,7 +118,7 @@ namespace Snake {
         /// the function is called after the previous orb has been collected. 
         ///
         /// the location of the orb is random, however, if the orb would have spawned on top of the player
-        /// the location will be re-randomized until it does not. 
+        /// the location will be re-randomized until it doesn't. 
         private void spawn() {
             int location = 0;
             Boolean valid = false;
